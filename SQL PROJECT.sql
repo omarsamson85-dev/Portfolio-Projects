@@ -7,7 +7,7 @@ order by 3,4
 --from [POTFOLIO PROJECTS].dbo.CovidVaccination
 --order by 3,4
 
---select the data used
+--selecting Data used
 
 select location,date,total_cases,new_cases,total_deaths,population
 from PotfolioProjects..CovidDeaths
