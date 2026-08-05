@@ -14,7 +14,7 @@ from PotfolioProjects..CovidDeaths
 order by 1,2
 
 -- total cases vs total deaths
--- shows likelihood of dying if you contact covid in your country 
+-- showing likelihood of dying if you contact covid in a country 
 
 select location,date,total_cases,total_deaths, (total_deaths/total_cases) *100 as DeathPercentage
 from PotfolioProjects..CovidDeaths
@@ -22,7 +22,7 @@ where location like '%kenya%'
 order by 1,2
 
 --total cases vs population
--- shows what percentage of population got covid
+-- Percentage of population got covid
 
 select location,date,total_cases,population,(total_cases/population) *100 as DeathPercentage
 from PotfolioProjects..CovidDeaths
