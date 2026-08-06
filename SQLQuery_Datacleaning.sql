@@ -115,6 +115,21 @@ set SoldAsVacant = CASE
         WHEN SoldAsVacant = 'N' THEN 'No'
         ELSE SoldAsVacant
     END
+   
+
+--Remove the null values and replacing them with default values
+   UPDATE NationalHousing
+SET
+    OwnerName = COALESCE(OwnerName, 'Unknown'),
+    YearBuilt = COALESCE(YearBuilt, 0),
+    Bedrooms = COALESCE(Bedrooms, 0),
+    FullBath = COALESCE(FullBath, 0),
+    HalfBath = COALESCE(HalfBath, 0),
+    Acreage  = COALESCE(Acreage, 0),
+    LandValue  = COALESCE( LandValue , 0),
+    BuildingValue = COALESCE(BuildingValue, 0),
+    TotalValue = COALESCE(TotalValue, 0);
+
 --Remove Duplicates
 
     WITH RowNumCTE AS(
