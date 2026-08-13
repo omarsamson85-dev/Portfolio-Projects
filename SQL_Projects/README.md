@@ -24,12 +24,12 @@ The project combines COVID-19 deaths and vaccination datasets to investigate cas
 
  Datasets
 
-- [CovidDeaths Dataset](COVID-19/CovidDeaths.xlsx)
-- [CovidVaccination Dataset](COVID-19/CovidVaccination.xlsx)
+- [CovidDeaths Dataset](./COVID-19/CovidDeaths.xlsx)
+- [CovidVaccination Dataset](./COVID-19/CovidVaccination.xlsx)
 
- SQL File
+SQL File
 
-- [COVID-19 Data Analysis Queries](COVID-19_Data_Analysis.sql)
+- [COVID-19 Data Analysis Queries](./COVID-19_Data_Analysis.sql)
 
 ---
 
@@ -53,13 +53,13 @@ The project includes standardizing dates, populating missing property addresses,
 - ROW_NUMBER()
 - Duplicate identification and removal
 
- Dataset
+Dataset
 
-- [Nashville Housing Dataset](Nashville_Housing/Nashville%20Housing%20Data%20for%20Data%20Cleaning.xlsx)
+- [Nashville Housing Dataset](./Nashville_Housing/Nashville%20Housing%20Data%20for%20Data%20Cleaning.xlsx)
 
 SQL File
 
-- [Nashville Housing Data Cleaning Queries](Nashville_Housing_Data_Cleaning.sql)
+- [Nashville Housing Data Cleaning Queries](./Nashville_Housing_Data_Cleaning.sql)
 
 ---
  Tools
