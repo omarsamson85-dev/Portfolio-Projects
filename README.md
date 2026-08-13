@@ -43,7 +43,7 @@ Skills Demonstrated:
 - Data visualization
 - Dashboard development
 
-**Dashboard Preview:
+Dashboard Preview:
 
 ![Bike Buyers Dashboard](Excel_Bike_Buyers/dashboard.png)
 
