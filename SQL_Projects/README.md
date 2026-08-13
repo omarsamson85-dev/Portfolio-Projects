@@ -1,32 +1,115 @@
-SQL Data Analysis Projects
+SQL Data Analytics Projects
 
- Project Overview
+Overview
 
-This folder contains SQL projects demonstrating data cleaning, data transformation, querying, and exploratory data analysis.
+This folder contains SQL projects demonstrating practical skills in data cleaning, data transformation, exploratory data analysis, and analytical querying using SQL Server.
 
-Projects
+The projects cover two different datasets and demonstrate the process of working with raw data, preparing it for analysis, and extracting meaningful insights using SQL.
 
- Data Cleaning and Standardization
+---
+ Projects
+ 1. COVID-19 Data Analysis
 
-A SQL project focused on cleaning and standardizing raw data using SQL queries.
+An exploratory SQL analysis of COVID-19 cases, deaths, and vaccination data.
 
- Data Analysis
+ Dataset
 
-A SQL project involving data exploration, aggregation, joins, window functions, and analytical queries to extract insights from the dataset.
+The project uses COVID-19 data sourced from the World Health Organization (WHO).
 
-Skills Demonstrated
+The data was organized into two SQL Server tables:
 
-- SQL querying
-- Data cleaning
-- Data transformation
-- Data standardization
-- Data aggregation
-- Joins
+- `CovidDeaths`
+- `CovidVaccination`
+
+ Analysis Includes
+
+- Total COVID-19 cases and deaths
+- Death percentages
+- Percentage of population infected
+- Countries with the highest infection rates
+- Countries with the highest death counts
+- Global COVID-19 statistics
+- Population versus vaccination rates
+- Rolling vaccination totals
+
+ SQL Skills Demonstrated
+
+- SELECT statements
+- Filtering with WHERE
+- GROUP BY
+- ORDER BY
+- Aggregate functions
+- JOINs
 - Common Table Expressions (CTEs)
+- Temporary tables
 - Window functions
+- Calculated fields
+- Percentage calculations
 - Exploratory data analysis
 
- Files
+ Project Files
 
-- `SQLQuery_Datacleaning.sql` – SQL queries used for data cleaning and standardization.
-- `SQL PROJECT.sql` – SQL queries used for data analysis and exploration.
+- [COVID-19 Analysis Queries](SQL%20PROJECT.sql)
+- [COVID-19 Project README](COVID-19/README.md)
+- [CovidDeaths Dataset](COVID-19/CovidDeaths.xlsx)
+- [CovidVaccination Dataset](COVID-19/CovidVaccination.xlsx)
+
+ 2. Nashville Housing Data Cleaning
+
+A SQL data-cleaning project focused on preparing Nashville housing data for analysis.
+
+ Dataset
+
+The original dataset is:
+
+`Nashville Housing Data for Data Cleaning.xlsx`
+
+The dataset was imported into SQL Server and stored as:
+
+`NationalHousing`
+
+ Data Cleaning Tasks
+
+- Standardizing date formats
+- Populating missing property addresses
+- Using self-joins to identify related records
+- Splitting address information into separate columns
+- Standardizing categorical values
+- Removing unwanted or inconsistent data
+- Altering table structure
+- Preparing cleaned data for analysis
+
+ SQL Skills Demonstrated
+
+- UPDATE statements
+- ALTER TABLE
+- JOINs
+- Self-joins
+- CASE statements
+- String functions
+- ISNULL
+- CTEs
+- Data transformation
+- Data standardization
+
+ Project Files
+
+- [Nashville Housing Cleaning Queries](SQLQuery_Datacleaning.sql)
+- [Nashville Housing Project README](Nashville_Housing/README.md)
+- [Nashville Housing Dataset](Nashville_Housing/Nashville%20Housing%20Data%20for%20Data%20Cleaning.xlsx)
+
+ Tools & Technologies
+
+- Microsoft SQL Server
+- SQL
+- SQL Server Management Studio (SSMS)
+
+Key Skills
+
+- Data Cleaning
+- Data Transformation
+- Exploratory Data Analysis
+- Data Aggregation
+- Relational Data Analysis
+- SQL Query Development
+- Analytical Problem Solving
