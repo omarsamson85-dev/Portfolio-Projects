@@ -42,12 +42,11 @@ This project analyzes COVID-19 cases, deaths, population, and vaccination data.
 [COVID-19 Data Analysis](COVID-19_Data_Analysis.sql)
 
 ---
-
- 2. Nashville Housing Data Cleaning
+## 2. Nashville Housing Data Cleaning
 
 This project focuses on cleaning and preparing housing data for analysis.
 
-Data Cleaning Tasks
+### Data Cleaning Tasks
 
 - Standardizing sale dates
 - Populating missing property addresses
@@ -59,7 +58,7 @@ Data Cleaning Tasks
 - Removing duplicate records
 - Removing redundant columns
 
- SQL Techniques
+### SQL Techniques
 
 - SELECT
 - UPDATE
@@ -72,13 +71,14 @@ Data Cleaning Tasks
 - ROW_NUMBER()
 - Duplicate detection and removal
 
- Dataset
+### Dataset
 
 [Nashville Housing Dataset](Nashville_Housing/Nashville%20Housing%20Data%20for%20Data%20Cleaning.xlsx)
 
-SQL Query
+### SQL Query
 
 [Nashville Housing Data Cleaning](Nashville_Housing_Data_Cleaning.sql)
+
 
 ---
 
