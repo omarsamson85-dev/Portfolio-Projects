@@ -54,6 +54,9 @@ The data was organized into two SQL Server tables:
 - [CovidDeaths Dataset](COVID-19/CovidDeaths.xlsx)
 - [CovidVaccination Dataset](COVID-19/CovidVaccination.xlsx)
 
+> The Excel datasets are provided as source files. GitHub may not display large Excel workbooks directly in the browser, but the files can be downloaded from the repository.
+--
+
  2. Nashville Housing Data Cleaning
 
 A SQL data-cleaning project focused on preparing Nashville housing data for analysis.
@@ -92,11 +95,13 @@ The dataset was imported into SQL Server and stored as:
 - Data transformation
 - Data standardization
 
- Project Files
+Project Files
 
 - [Nashville Housing Cleaning Queries](SQLQuery_Datacleaning.sql)
 - [Nashville Housing Project README](Nashville_Housing/README.md)
 - [Nashville Housing Dataset](Nashville_Housing/Nashville%20Housing%20Data%20for%20Data%20Cleaning.xlsx)
+
+> The Excel dataset is provided as a source file. GitHub may not display large Excel workbooks directly in the browser, but the file can be downloaded from the repository.
 
  Tools & Technologies
 
