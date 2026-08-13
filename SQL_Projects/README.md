@@ -1,68 +1,88 @@
- SQL Projects
+SQL Projects
 
-This folder contains SQL projects demonstrating practical data cleaning, transformation, exploratory data analysis, and analytical querying using SQL Server.
+This folder contains SQL projects demonstrating data cleaning, data transformation, exploratory data analysis, and analytical querying using Microsoft SQL Server.
 
- Projects
+---
 
-1. COVID-19 Data Analysis
+ 1. COVID-19 Data Analysis
 
-An exploratory analysis of COVID-19 cases, deaths, population, and vaccination data.
+This project analyzes COVID-19 cases, deaths, population, and vaccination data.
 
-The project combines COVID-19 deaths and vaccination datasets to investigate case trends, death rates, infection rates, global statistics, and vaccination progress.
+ Analysis Includes
 
- SQL Techniques Demonstrated
+- Total cases vs. total deaths
+- Population infection rates
+- Countries with highest infection rates
+- Death counts by country and continent
+- Global COVID-19 numbers
+- Population vs. vaccinations
+- Rolling vaccination totals
 
-- Data exploration
-- Aggregate functions
+ SQL Techniques
+
+- SELECT
+- WHERE
 - GROUP BY
+- ORDER BY
+- Aggregate functions
 - JOINs
 - Window functions
 - Common Table Expressions (CTEs)
 - Temporary tables
-- SQL views
+- SQL Views
 - Calculated metrics
 
  Datasets
 
-- [CovidDeaths Dataset](./COVID-19/CovidDeaths.xlsx)
-- [CovidVaccination Dataset](./COVID-19/CovidVaccination.xlsx)
+- [CovidDeaths Dataset](COVID-19/CovidDeaths.xlsx)
+- [CovidVaccination Dataset](COVID-19/CovidVaccination.xlsx)
 
-SQL File
+ SQL Query
 
-- [COVID-19 Data Analysis Queries](./COVID-19_Data_Analysis.sql)
+[COVID-19 Data Analysis](COVID-19_Data_Analysis.sql)
 
 ---
 
  2. Nashville Housing Data Cleaning
 
-A data-cleaning project focused on preparing housing transaction data for analysis.
+This project focuses on cleaning and preparing housing data for analysis.
 
-The project includes standardizing dates, populating missing property addresses, splitting address fields, standardizing categorical values, handling selected missing values, identifying duplicates, and removing redundant columns.
+Data Cleaning Tasks
 
- SQL Techniques Demonstrated
+- Standardizing sale dates
+- Populating missing property addresses
+- Splitting property addresses into separate fields
+- Splitting owner addresses into separate fields
+- Standardizing Sold As Vacant values
+- Handling selected missing values
+- Identifying duplicate records
+- Removing duplicate records
+- Removing redundant columns
 
-- Data cleaning
-- UPDATE statements
+ SQL Techniques
+
+- SELECT
+- UPDATE
 - ALTER TABLE
 - JOINs
 - CASE statements
 - COALESCE
-- ISNULL
 - String functions
 - Common Table Expressions (CTEs)
 - ROW_NUMBER()
-- Duplicate identification and removal
+- Duplicate detection and removal
 
-Dataset
+ Dataset
 
-- [Nashville Housing Dataset](./Nashville_Housing/Nashville%20Housing%20Data%20for%20Data%20Cleaning.xlsx)
+[Nashville Housing Dataset](Nashville_Housing/Nashville%20Housing%20Data%20for%20Data%20Cleaning.xlsx)
 
-SQL File
+SQL Query
 
-- [Nashville Housing Data Cleaning Queries](./Nashville_Housing_Data_Cleaning.sql)
+[Nashville Housing Data Cleaning](Nashville_Housing_Data_Cleaning.sql)
 
 ---
- Tools
+
+Tools Used
 
 - Microsoft SQL Server
 - SQL Server Management Studio (SSMS)
