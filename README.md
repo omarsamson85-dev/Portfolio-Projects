@@ -1,26 +1,40 @@
 Data Analytics Portfolio
 
-Welcome to my data analytics portfolio. This repository contains projects demonstrating my skills in SQL and Microsoft Excel, including data cleaning, analysis, visualization, and dashboard development.
+Welcome to my data analytics portfolio. This repository contains projects demonstrating my skills in SQL and Microsoft Excel, including data cleaning, data analysis, data visualization, and dashboard development.
 
-Projects
+ Projects
 
- 1. SQL Projects
+1. SQL Projects
 
-My SQL projects demonstrate data cleaning, transformation, querying, and data analysis using SQL.
+My SQL projects demonstrate practical experience in data cleaning, data transformation, exploratory data analysis, and analytical querying using SQL Server.
 
 Projects include:
 
 - COVID-19 data analysis
-- Data cleaning and standardization
-- SQL querying and data exploration
+- Nashville Housing data cleaning
+- Data transformation and standardization
+- SQL querying and exploratory data analysis
 
-[View SQL Project Files](./)
+SQL Skills Demonstrated
+
+- Data cleaning
+- Data transformation
+- Joins
+- Aggregate functions
+- Common Table Expressions (CTEs)
+- Window functions
+- Data analysis
+- SQL Server
+
+[View SQL Projects](SQL_Projects/)
+
+---
 
 2. Bike Buyers Analysis – Advanced Excel
 
-An advanced Excel project involving data cleaning, pivot table analysis, and dashboard development.
+An advanced Excel project involving data cleaning, pivot table analysis, data visualization, and dashboard development.
 
-Skills demonstrated:
+Skills Demonstrated:
 
 - Data cleaning
 - Excel formulas
@@ -29,7 +43,7 @@ Skills demonstrated:
 - Data visualization
 - Dashboard development
 
-**Dashboard Preview:**
+**Dashboard Preview:
 
 ![Bike Buyers Dashboard](Excel_Bike_Buyers/dashboard.png)
 
