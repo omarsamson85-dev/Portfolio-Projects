@@ -1,37 +1,41 @@
-Bike Buyers Analysis – Advanced Excel Project
+ Bike Buyers Analysis – Advanced Excel Project
 
- Project Overview
+Project Overview
 
 This project demonstrates the use of Microsoft Excel to clean, analyze, and visualize a bike buyers dataset.
 
-The project includes data cleaning, pivot table analysis, and an interactive dashboard.
+The project includes data cleaning, pivot table analysis, and the development of an interactive dashboard to present key insights from the data.
 
- Workbook Sheets
+Workbook Structure
+
+The Excel workbook contains the following sheets:
 
  1. bike_buyers
 Contains the original dataset used for the analysis.
 
- 2. Data Cleaning
+ 2. Working Working Sheet
 Contains the cleaned and prepared data used for analysis.
 
-3. Pivot Table
+ 3. Pivot Table
 Contains pivot tables used to summarize and analyze the dataset.
 
  4. Dashboard
-Contains the final dashboard presenting the analysis and visualizations.
+Contains the final dashboard with visualizations and key findings.
 
- Excel Skills Demonstrated
+ Skills Demonstrated
 
 - Data cleaning and preparation
 - Excel formulas
 - Pivot tables
 - Data analysis
 - Data visualization
-- Dashboard creation
+- Dashboard development
+- Business insights
+
  Dashboard Preview
 
-The final dashboard provides a visual summary of the bike buyers analysis.
+![Bike Buyers Dashboard](dashboard.png)
 
-Project File
+ Project Files
 
-The complete Excel workbook is available in this repository.
+[View the Excel Workbook](Advanced_Excel_Bike_Sales_Analysis.Xlsx)
