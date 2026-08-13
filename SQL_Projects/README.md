@@ -49,7 +49,7 @@ The data was organized into two SQL Server tables:
 
  Project Files
 
-- [COVID-19 Analysis Queries](SQL%20PROJECT.sql)
+- [COVID-19 Analysis Queries](COVID-19_Data_Analysis.sql)
 - [COVID-19 Project README](COVID-19/README.md)
 - [CovidDeaths Dataset](COVID-19/CovidDeaths.xlsx)
 - [CovidVaccination Dataset](COVID-19/CovidVaccination.xlsx)
@@ -97,7 +97,7 @@ The dataset was imported into SQL Server and stored as:
 
 Project Files
 
-- [Nashville Housing Cleaning Queries](SQLQuery_Datacleaning.sql)
+- [Nashville Housing Cleaning Queries](Nashville_Housing_Data_Cleaning.sql)
 - [Nashville Housing Project README](Nashville_Housing/README.md)
 - [Nashville Housing Dataset](Nashville_Housing/Nashville%20Housing%20Data%20for%20Data%20Cleaning.xlsx)
 
