@@ -1,28 +1,53 @@
- COVID-19 Data Analysis
+COVID-19 Data Analysis
 
-This folder contains the source data used for the COVID-19 SQL analysis project.
+ Project Overview
 
- Source Data
+This project analyzes COVID-19 cases, deaths, and vaccination data using SQL.
 
-The analysis uses COVID-19 case, death, and related vaccination data.
-
-The SQL analysis is contained in `SQL PROJECT.sql`.
-
-SQL Tables
-
-The datasets were imported into SQL Server and used through the following tables:
+The analysis was performed using COVID-19 data sourced from the World Health Organization (WHO). The data was organized into two related SQL Server tables:
 
 - `CovidDeaths`
 - `CovidVaccination`
 
- Analysis
+ Objectives
 
-The SQL project explores:
+The project explores:
 
-- COVID-19 cases
-- COVID-19 deaths
+- COVID-19 cases and deaths
 - Death percentages
-- Population comparisons
-- Infection rates
-- COVID-19 vaccination data
-- Country and regional comparisons
+- Percentage of population infected
+- Countries with the highest infection rates
+- Countries with the highest death counts
+- Global COVID-19 statistics
+- COVID-19 vaccination progress
+- Population versus vaccination rates
+
+SQL Skills Demonstrated
+
+- SELECT statements
+- WHERE filtering
+- ORDER BY
+- GROUP BY
+- Aggregate functions
+- Joins
+- Common Table Expressions (CTEs)
+- Temporary tables
+- Window functions
+- Calculations and percentage analysis
+- Data exploration and transformation
+
+Dataset
+
+Source: World Health Organization (WHO)
+
+The original COVID-19 dataset was used to create the `CovidDeaths` and `CovidVaccination` tables used in the SQL analysis.
+
+SQL Analysis
+
+The main analysis queries are contained in:
+
+[`SQL PROJECT.sql`](../SQL%20PROJECT.sql)
+
+ Dataset Availability
+
+The original raw COVID-19 dataset is not currently included in this repository because of GitHub file-size limitations.
