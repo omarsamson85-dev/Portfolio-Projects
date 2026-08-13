@@ -8,7 +8,7 @@ Projects
 
 My SQL projects demonstrate data cleaning, transformation, querying, and data analysis using SQL.
 
-Projects include:**
+Projects include:
 
 - COVID-19 data analysis
 - Data cleaning and standardization
