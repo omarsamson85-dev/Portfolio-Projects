@@ -1,24 +1,22 @@
-SQL Projects
+# SQL Projects
 
-This folder contains SQL projects demonstrating data cleaning, data transformation, exploratory data analysis, and analytical querying using Microsoft SQL Server.
+This folder contains SQL projects demonstrating data cleaning, data transformation, exploratory data analysis, and analytical querying using **Microsoft SQL Server**.
 
----
-
- 1. COVID-19 Data Analysis
+## 1. COVID-19 Data Analysis
 
 This project analyzes COVID-19 cases, deaths, population, and vaccination data.
 
- Analysis Includes
+### Analysis Includes
 
 - Total cases vs. total deaths
 - Population infection rates
-- Countries with highest infection rates
+- Countries with the highest infection rates
 - Death counts by country and continent
 - Global COVID-19 numbers
 - Population vs. vaccinations
 - Rolling vaccination totals
 
- SQL Techniques
+### SQL Techniques
 
 - SELECT
 - WHERE
@@ -29,19 +27,18 @@ This project analyzes COVID-19 cases, deaths, population, and vaccination data.
 - Window functions
 - Common Table Expressions (CTEs)
 - Temporary tables
-- SQL Views
+- SQL views
 - Calculated metrics
 
- Datasets
+### Project Files
 
+- [COVID-19 Project README](COVID-19/README.md)
+- [COVID-19 Data Analysis SQL](COVID-19_Data_Analysis.sql)
 - [CovidDeaths Dataset](COVID-19/CovidDeaths.xlsx)
-- [CovidVaccination Dataset](COVID-19/CovidVaccination.xlsx)
-
- SQL Query
-
-[COVID-19 Data Analysis](COVID-19_Data_Analysis.sql)
+- [CovidVaccination Dataset](COVID-19/CovidVacination.xlsx)
 
 ---
+
 ## 2. Nashville Housing Data Cleaning
 
 This project focuses on cleaning and preparing housing data for analysis.
@@ -71,18 +68,15 @@ This project focuses on cleaning and preparing housing data for analysis.
 - ROW_NUMBER()
 - Duplicate detection and removal
 
-### Dataset
+### Project Files
 
-[Nashville Housing Dataset](Nashville_Housing/Nashville%20Housing%20Data%20for%20Data%20Cleaning.xlsx)
-
-### SQL Query
-
-[Nashville Housing Data Cleaning](Nashville_Housing_Data_Cleaning.sql)
-
+- [Nashville Housing Project README](Nashville_Housing/README.md)
+- [Nashville Housing Dataset](Nashville_Housing/Nashville%20Housing%20Data%20for%20Data%20Cleaning.xlsx)
+- [Nashville Housing Data Cleaning SQL](Nashville_Housing_Data_Cleaning.sql)
 
 ---
 
-Tools Used
+## Tools Used
 
 - Microsoft SQL Server
 - SQL Server Management Studio (SSMS)
