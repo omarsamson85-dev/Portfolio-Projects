@@ -1,15 +1,15 @@
-COVID-19 Data Analysis
+# COVID-19 Data Analysis
 
- Project Overview
+## Project Overview
 
-This project analyzes COVID-19 cases, deaths, and vaccination data using SQL.
+This project analyzes COVID-19 cases, deaths, population, and vaccination data using **Microsoft SQL Server**.
 
-The analysis was performed using COVID-19 data sourced from the World Health Organization (WHO). The data was organized into two related SQL Server tables:
+The analysis uses two related datasets:
 
 - `CovidDeaths`
 - `CovidVaccination`
 
- Objectives
+## Objectives
 
 The project explores:
 
@@ -22,32 +22,28 @@ The project explores:
 - COVID-19 vaccination progress
 - Population versus vaccination rates
 
-SQL Skills Demonstrated
+## SQL Skills Demonstrated
 
 - SELECT statements
 - WHERE filtering
 - ORDER BY
 - GROUP BY
 - Aggregate functions
-- Joins
+- JOINs
 - Common Table Expressions (CTEs)
 - Temporary tables
 - Window functions
-- Calculations and percentage analysis
+- Calculated metrics
 - Data exploration and transformation
 
-Dataset
+## Project Files
 
-Source: World Health Organization (WHO)
+- [COVID-19 Data Analysis SQL](../COVID-19_Data_Analysis.sql)
+- [CovidDeaths Dataset](CovidDeaths.xlsx)
+- [CovidVaccination Dataset](CovidVacination.xlsx)
 
-The original COVID-19 dataset was used to create the `CovidDeaths` and `CovidVaccination` tables used in the SQL analysis.
+## Dataset Source
 
-SQL Analysis
+The project datasets contain COVID-19 cases, deaths, population, and vaccination information used for the SQL analysis.
 
-The main analysis queries are contained in:
-
-[`SQL PROJECT.sql`](../SQL%20PROJECT.sql)
-
- Dataset Availability
-
-The original raw COVID-19 dataset is not currently included in this repository because of GitHub file-size limitations.
+> **Note:** Excel files may not open as an interactive spreadsheet directly in GitHub. Use the dataset links to download the files and open them in Microsoft Excel or another compatible application.
