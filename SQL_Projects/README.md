@@ -39,9 +39,11 @@ This project analyzes COVID-19 cases, deaths, population, and vaccination data.
 
 ---
 
-## 2. Nashville Housing Data Cleaning
+## 2. National Housing Data Cleaning
 
-This project focuses on cleaning and preparing housing data for analysis.
+This project focuses on cleaning and preparing the **National Housing** dataset for analysis using SQL Server.
+
+The original source workbook retained in the repository is named `Nashville Housing Data for Data Cleaning.xlsx`. That filename is preserved because it is the source workbook's filename. After import into SQL Server, the working table used throughout the queries is named `NationalHousing`.
 
 ### Data Cleaning Tasks
 
@@ -68,11 +70,19 @@ This project focuses on cleaning and preparing housing data for analysis.
 - ROW_NUMBER()
 - Duplicate detection and removal
 
+### SQL Table
+
+`NationalHousing`
+
 ### Project Files
 
-- [Nashville Housing Project README](Nashville_Housing/README.md)
-- [Nashville Housing Dataset](Nashville_Housing/Nashville%20Housing%20Data%20for%20Data%20Cleaning.xlsx)
-- [Nashville Housing Data Cleaning SQL](Nashville_Housing_Data_Cleaning.sql)
+- [National Housing Project README](Nashville_Housing/README.md)
+- [National Housing Dataset](Nashville_Housing/Nashville%20Housing%20Data%20for%20Data%20Cleaning.xlsx)
+- [National Housing Data Cleaning SQL](Nashville_Housing_Data_Cleaning.sql)
+
+### Source / Attribution Note
+
+The underlying housing dataset is a third-party source dataset. This repository does not claim ownership of the original dataset. The SQL cleaning script and analysis are the portfolio author's work. Users should consult the original dataset provider's terms before redistributing the source workbook.
 
 ---
 
