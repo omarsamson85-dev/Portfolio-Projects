@@ -62,23 +62,25 @@ An Excel analysis project covering data cleaning, formulas, pivot tables, data v
 
 The COVID-19 analysis uses COVID-19 data obtained from the **World Health Organization (WHO)**. The source data was prepared and organized into the `CovidDeaths` and `CovidVaccination` tables for SQL Server analysis.
 
-The WHO states that, unless otherwise indicated, datasets available through data.who.int are provided under **Creative Commons Attribution 4.0 International (CC BY 4.0)**, subject to the WHO dataset terms and conditions. The source may include material credited to other providers, which can have separate terms. citeturn0search0turn0search2
+WHO currently states that, unless specifically indicated otherwise, its datasets on data.who.int are provided under **Creative Commons Attribution 4.0 International (CC BY 4.0)**, with additional WHO terms and conditions. Some datasets may contain material credited to other providers; those components can have separate terms.
 
-**Attribution:** World Health Organization (WHO), COVID-19 data, data.who.int. The repository's SQL queries, transformations, documentation, and analysis are my own work based on the source data.
+**Attribution:** World Health Organization (WHO), COVID-19 data, data.who.int.
 
-WHO does not endorse or imply affiliation with this portfolio or the analysis. citeturn0search2
+The portfolio does not claim WHO endorsement, affiliation, or sponsorship. The SQL queries, transformations, documentation, and analysis created for this portfolio are the author's work based on the source data.
+
+Source licensing information: https://data.who.int/about/data/terms-and-conditions
 
 ### National Housing Data
 
-The source workbook retained in this repository is named **`Nashville Housing Data for Data Cleaning.xlsx`**. This is the original source filename and is retained so the source file can be distinguished from the SQL Server table used in the project.
+The source workbook retained in this repository is named **`Nashville Housing Data for Data Cleaning.xlsx`**. That filename is retained because it is the name of the source workbook used for the project.
 
-For SQL analysis, the imported table is named **`NationalHousing`**. The SQL cleaning script, queries, transformations, and documentation refer to that SQL table name.
+For the SQL analysis, the imported table is named **`NationalHousing`**. The SQL cleaning script and queries consistently use `NationalHousing` as the SQL Server table name.
 
-The repository does not claim ownership of the underlying National/Nashville Housing source dataset. Where the source dataset is redistributed, users should consult the original dataset provider's applicable terms and attribution requirements.
+The repository does not claim ownership of the underlying housing source dataset. The source dataset's original provider and applicable reuse terms should be consulted before redistributing the underlying workbook outside this portfolio.
 
 ### Portfolio Work
 
-The SQL scripts, README documentation, Excel analysis work, dashboard presentation, and other original portfolio materials created by me should be distinguished from the third-party source datasets described above.
+The SQL scripts, README documentation, Excel analysis work, dashboard presentation, and other original portfolio materials created by the author should be distinguished from the third-party source datasets described above.
 
 ## Opening Excel Files on GitHub
 
@@ -90,7 +92,7 @@ The dashboard image is included in the repository so visitors can preview the an
 
 This repository does not grant a license to third-party datasets merely by including them here. Dataset rights remain subject to their respective source terms.
 
-Unless a separate license is added for this repository, GitHub's default copyright rules apply to my original repository materials. citeturn0search12
+No separate open-source license is currently granted for the repository's original materials. Unless a license is added later, the author's original materials remain subject to applicable copyright law.
 
 ## Tools
 
