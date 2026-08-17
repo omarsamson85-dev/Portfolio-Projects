@@ -33,4 +33,12 @@ The Excel workbook contains the following sheets:
 
 [Download / open the Excel workbook](Advanced_Excel_Bike_Sales_Analysis.Xlsx)
 
+## Data Source & Attribution
+
+The `bike_buyers` sheet contains the source dataset used as the starting point for this analysis. The original provider/license for this particular copy is not recorded in the repository metadata.
+
+This portfolio does not claim ownership of the underlying source dataset. The cleaning, workbook preparation, pivot-table analysis, dashboard, documentation, and business analysis created for this portfolio are the author's work.
+
+If the underlying dataset is redistributed independently of this portfolio, its original provider and applicable licensing/attribution requirements should be verified first.
+
 > **Note:** GitHub does not provide an interactive Excel spreadsheet viewer. If the workbook does not preview in your browser, use the project-file link above to download it and open it with Microsoft Excel or another compatible spreadsheet application.
