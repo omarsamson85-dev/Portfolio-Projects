@@ -1,98 +1,99 @@
 # Data Analytics Portfolio
 
-Welcome to my data analytics portfolio. This repository contains practical projects demonstrating skills in **SQL Server** and **Microsoft Excel**, including data cleaning, data transformation, exploratory data analysis, visualization, and dashboard development.
+A practical data analytics portfolio by **SAMSON OMAR**, focused on **SQL Server, Excel, data cleaning, exploratory analysis, and dashboard development**.
 
-## Projects
+This repository is designed to give recruiters, hiring managers, and other visitors a quick view of hands-on analytics work, the techniques used, and the supporting project files.
+
+## Portfolio Highlights
+
+| Project | Focus | Tools |
+|---|---|---|
+| [COVID-19 Data Analysis](SQL_Projects/COVID-19/README.md) | Exploratory analysis of cases, deaths, population, and vaccination data | SQL Server |
+| [National Housing Data Cleaning](SQL_Projects/Nashville_Housing/README.md) | Data cleaning, standardization, deduplication, and preparation for analysis | SQL Server |
+| [Bike Buyers Analysis](Excel_Bike_Buyers/README.md) | Data preparation, pivot-table analysis, visualization, and dashboarding | Microsoft Excel |
+
+## What This Portfolio Demonstrates
+
+- Data cleaning and preparation
+- Exploratory data analysis (EDA)
+- SQL querying and analytical transformations
+- JOINs, aggregations, CTEs, window functions, and temporary tables
+- Excel formulas and pivot tables
+- Data visualization and dashboard development
+- Communicating findings through clear project documentation
+
+## Project Navigation
 
 ### 1. SQL Projects
 
-The SQL section demonstrates practical work with data cleaning, transformation, exploratory analysis, joins, CTEs, window functions, and analytical queries using Microsoft SQL Server.
+The SQL portfolio demonstrates practical work with **Microsoft SQL Server / SQL Server Management Studio (SSMS)**.
 
-Projects include:
+**COVID-19 Data Analysis**
 
-- COVID-19 Data Analysis
-- National Housing Data Cleaning
+- [Project overview](SQL_Projects/COVID-19/README.md)
+- [SQL analysis script](SQL_Projects/COVID-19_Data_Analysis.sql)
+- [COVID-19 deaths dataset](SQL_Projects/COVID-19/CovidDeaths.xlsx)
+- [COVID-19 vaccination dataset](SQL_Projects/COVID-19/CovidVacination.xlsx)
 
-**Skills demonstrated:**
+Key techniques include data exploration, aggregations, JOINs, window functions, CTEs, temporary tables, views, and calculated metrics.
 
-- Data cleaning and transformation
-- Joins and aggregate functions
-- Common Table Expressions (CTEs)
-- Window functions
-- Exploratory data analysis
-- SQL Server / SSMS
+**National Housing Data Cleaning**
 
-**Project:** [View SQL Projects](SQL_Projects/README.md)
+- [Project overview](SQL_Projects/Nashville_Housing/README.md)
+- [SQL cleaning script](SQL_Projects/Nashville_Housing_Data_Cleaning.sql)
+- [Source housing workbook](SQL_Projects/Nashville_Housing/Nashville%20Housing%20Data%20for%20Data%20Cleaning.xlsx)
 
----
+Key techniques include address standardization, missing-value handling, string manipulation, duplicate detection/removal, `CASE`, `COALESCE`, JOINs, CTEs, and `ROW_NUMBER()`.
 
 ### 2. Bike Buyers Analysis – Advanced Excel
 
-An Excel analysis project covering data cleaning, formulas, pivot tables, data visualization, and dashboard development.
+This project uses Microsoft Excel for data preparation, formula-based analysis, pivot tables, visualization, and dashboard development.
 
-**Skills demonstrated:**
-
-- Data cleaning and preparation
-- Excel formulas
-- Pivot tables
-- Data analysis
-- Data visualization
-- Dashboard development
-- Business insights
-
-**Project:** [View Excel Bike Buyers Project](Excel_Bike_Buyers/README.md)
-
-**Dashboard preview:**
+- [Project overview](Excel_Bike_Buyers/README.md)
+- [Excel workbook](Excel_Bike_Buyers/Advanced_Excel_Bike_Sales_Analysis.Xlsx)
+- [Dashboard preview](Excel_Bike_Buyers/dashboard.png)
 
 ![Bike Buyers Dashboard](Excel_Bike_Buyers/dashboard.png)
 
----
+## How to Review the Projects
 
-## Repository Navigation
+**For recruiters and hiring managers:** Start with the project overviews above, then open the SQL scripts or Excel workbook to inspect the implementation.
 
-| Project | Description | Main File |
-|---|---|---|
-| [COVID-19 Data Analysis](SQL_Projects/COVID-19/README.md) | COVID-19 cases, deaths, and vaccination analysis | [SQL analysis](SQL_Projects/COVID-19_Data_Analysis.sql) |
-| [National Housing Data Cleaning](SQL_Projects/Nashville_Housing/README.md) | National Housing data cleaning and preparation | [SQL cleaning script](SQL_Projects/Nashville_Housing_Data_Cleaning.sql) |
-| [Bike Buyers Analysis](Excel_Bike_Buyers/README.md) | Excel analysis and dashboard | [Excel workbook](Excel_Bike_Buyers/Advanced_Excel_Bike_Sales_Analysis.Xlsx) |
+**For SQL review:** Open the `.sql` files in SQL Server Management Studio or another SQL Server-compatible editor. The scripts expect the datasets to be available in SQL Server tables as documented in each project.
+
+**For Excel review:** GitHub does not provide an interactive spreadsheet experience for `.xlsx` files. Download the workbook and open it in Microsoft Excel or another compatible spreadsheet application. The dashboard image is included for an immediate browser-based preview.
 
 ## Data Sources & Attribution
 
 ### COVID-19 Data
 
-The COVID-19 analysis uses COVID-19 data obtained from the **World Health Organization (WHO)**. The source data was prepared and organized into the `CovidDeaths` and `CovidVaccination` tables for SQL Server analysis.
+The COVID-19 analysis uses COVID-19 data obtained from the **World Health Organization (WHO)** and prepared for SQL Server analysis.
 
-WHO currently states that, unless specifically indicated otherwise, its datasets on data.who.int are provided under **Creative Commons Attribution 4.0 International (CC BY 4.0)**, with additional WHO terms and conditions. Some datasets may contain material credited to other providers; those components can have separate terms.
+WHO currently states that, unless specifically indicated otherwise, datasets on data.who.int are provided under **Creative Commons Attribution 4.0 International (CC BY 4.0)** with additional WHO terms and conditions. Some datasets may contain material credited to other providers and those components can have separate terms.
 
 **Attribution:** World Health Organization (WHO), COVID-19 data, data.who.int.
 
-The portfolio does not claim WHO endorsement, affiliation, or sponsorship. The SQL queries, transformations, documentation, and analysis created for this portfolio are the author's work based on the source data.
+The portfolio does not claim WHO endorsement, affiliation, or sponsorship.
 
 Source licensing information: https://data.who.int/about/data/terms-and-conditions
 
 ### National Housing Data
 
-The source workbook retained in this repository is named **`Nashville Housing Data for Data Cleaning.xlsx`**. That filename is retained because it is the name of the source workbook used for the project.
+The retained source workbook is named **`Nashville Housing Data for Data Cleaning.xlsx`** because that is the filename of the source workbook used for the project. After import into SQL Server, the working table is named **`NationalHousing`**.
 
-For the SQL analysis, the imported table is named **`NationalHousing`**. The SQL cleaning script and queries consistently use `NationalHousing` as the SQL Server table name.
+The repository does not claim ownership of the underlying third-party housing dataset. The SQL cleaning work, transformations, documentation, and analysis are the portfolio author's work. Anyone redistributing the underlying workbook should verify the original provider's licensing and attribution requirements first.
 
-The repository does not claim ownership of the underlying housing source dataset. The source dataset's original provider and applicable reuse terms should be consulted before redistributing the underlying workbook outside this portfolio.
+### Bike Buyers Data
 
-### Portfolio Work
+The `bike_buyers` worksheet contains the source dataset used as the starting point for the Excel analysis. The original provider/license for this particular copy is not recorded in the repository metadata.
 
-The SQL scripts, README documentation, Excel analysis work, dashboard presentation, and other original portfolio materials created by the author should be distinguished from the third-party source datasets described above.
+The portfolio does not claim ownership of the underlying source dataset. The workbook preparation, analysis, pivot-table work, dashboard, and documentation are the portfolio author's work.
 
-## Opening Excel Files on GitHub
+## Original Portfolio Work
 
-GitHub does not render `.xlsx` workbooks as an interactive spreadsheet in the repository page. Use the workbook link to download the file and open it in **Microsoft Excel** or another compatible spreadsheet application.
+The SQL scripts, analysis documentation, Excel workbook work, dashboard presentation, and other original materials created for this portfolio should be distinguished from the third-party source datasets described above.
 
-The dashboard image is included in the repository so visitors can preview the analysis directly from GitHub.
-
-## Licensing Note
-
-This repository does not grant a license to third-party datasets merely by including them here. Dataset rights remain subject to their respective source terms.
-
-No separate open-source license is currently granted for the repository's original materials. Unless a license is added later, the author's original materials remain subject to applicable copyright law.
+No separate open-source license is currently granted for the repository's original materials. Unless a license is added later, those original materials remain subject to applicable copyright law.
 
 ## Tools
 
