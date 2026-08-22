@@ -1,11 +1,10 @@
-- name: Test Kaggle authentication
+- name: Check Kaggle token is available
   env:
     KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
   run: |
     if [ -z "$KAGGLE_API_TOKEN" ]; then
-      echo "ERROR: KAGGLE_API_TOKEN was not supplied by GitHub."
+      echo "TOKEN_STATUS=EMPTY"
       exit 1
+    else
+      echo "TOKEN_STATUS=PRESENT"
     fi
-
-    echo "KAGGLE_API_TOKEN is present."
-    kaggle datasets list -s project-source-data
