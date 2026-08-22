@@ -24,6 +24,35 @@ jobs:
         run: |
           mkdir -p data
           kaggle datasets download samsonomar/project-source-data \
+                - name: Inspect dataset
+        run: |
+          python - <<'PY'
+          import pandas as pd
+          from pathlib import Path
+
+          for file in Path("data").glob("*.csv"):
+              print("\n" + "=" * 80)
+              print(f"FILE: {file}")
+              print("=" * 80)
+
+              df = pd.read_csv(file)
+
+              print(f"Rows: {len(df):,}")
+              print(f"Columns: {len(df.columns)}")
+
+              print("\nColumns:")
+              for col in df.columns:
+                  print(f"  - {col}")
+
+              print("\nData types:")
+              print(df.dtypes.to_string())
+
+              print("\nMissing values:")
+              print(df.isna().sum().to_string())
+
+              print("\nFirst 3 rows:")
+              print(df.head(3).to_string())
+          PY
             --path data \
             --unzip
 
