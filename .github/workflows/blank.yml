@@ -1,10 +1,30 @@
-- name: Check Kaggle token is available
-  env:
-    KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
-  run: |
-    if [ -z "$KAGGLE_API_TOKEN" ]; then
-      echo "TOKEN_STATUS=EMPTY"
-      exit 1
-    else
-      echo "TOKEN_STATUS=PRESENT"
-    fi
+name: Test Kaggle Connection
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-kaggle:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Kaggle CLI
+        run: |
+          python -m pip install --upgrade pip
+          pip install kaggle
+
+      - name: Check Kaggle token is available
+        env:
+          KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
+        run: |
+          if [ -z "$KAGGLE_API_TOKEN" ]; then
+            echo "TOKEN_STATUS=EMPTY"
+            exit 1
+          else
+            echo "TOKEN_STATUS=PRESENT"
+          fi
