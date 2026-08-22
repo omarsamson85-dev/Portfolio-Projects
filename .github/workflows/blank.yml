@@ -33,65 +33,34 @@ jobs:
           echo "Downloaded files:"
           find data -maxdepth 2 -type f -printf '%p\n'
 
-      - name: Inspect dataset
+      - name: Validate source data
         run: |
           python - <<'PY'
           import pandas as pd
           from pathlib import Path
 
-          for file in Path("data").glob("*.csv"):
-              print("\n" + "=" * 80)
-              print(f"FILE: {file}")
-              print("=" * 80)
+          required = {
+              "listings.csv": 92,
+              "calendar.csv": 4,
+              "reviews.csv": 6,
+          }
+
+          for name, expected_columns in required.items():
+              file = Path("data") / name
+              if not file.exists():
+                  raise FileNotFoundError(f"Missing required dataset file: {file}")
+
               df = pd.read_csv(file)
-              print(f"Rows: {len(df):,}")
-              print(f"Columns: {len(df.columns)}")
-              print("\nMissing values:")
-              print(df.isna().sum().to_string())
+              print(f"{name}: {len(df):,} rows, {len(df.columns)} columns")
+
+              if len(df.columns) != expected_columns:
+                  raise ValueError(
+                      f"Unexpected column count for {name}: "
+                      f"expected {expected_columns}, got {len(df.columns)}"
+                  )
+
+          print("Kaggle dataset validation passed.")
           PY
-
-      - name: Prepare dashboard data
-        run: |
-          mkdir -p dashboard_data
-          python - <<'PY'
-          import pandas as pd
-
-          listings = pd.read_csv("data/listings.csv")
-          calendar = pd.read_csv("data/calendar.csv")
-          reviews = pd.read_csv("data/reviews.csv")
-
-          listing_columns = [
-              "id", "name", "neighbourhood_cleansed", "room_type", "property_type",
-              "accommodates", "bathrooms", "bedrooms", "beds", "price",
-              "number_of_reviews", "review_scores_rating", "review_scores_accuracy",
-              "review_scores_cleanliness", "review_scores_checkin",
-              "review_scores_communication", "review_scores_location",
-              "review_scores_value"
-          ]
-          listings[listing_columns].to_csv("dashboard_data/listings_dashboard.csv", index=False)
-
-          calendar[["listing_id", "date", "available", "price"]].to_csv(
-              "dashboard_data/calendar_dashboard.csv", index=False
-          )
-
-          reviews[["listing_id", "id", "date", "reviewer_id", "reviewer_name"]].to_csv(
-              "dashboard_data/reviews_dashboard.csv", index=False
-          )
-
-          print("Dashboard data prepared successfully.")
-          PY
-
-      - name: Commit dashboard data
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dashboard_data/
-          if git diff --cached --quiet; then
-            echo "No dashboard data changes to commit."
-          else
-            git commit -m "Update dashboard data"
-            git push
-          fi
 
       - name: Complete job
-        run: echo "Dashboard data build completed successfully."
+        run: echo "Kaggle data connection and validation completed successfully."
