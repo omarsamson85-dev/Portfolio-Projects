@@ -18,13 +18,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install kaggle
 
-      - name: Check Kaggle token is available
+      - name: Test Kaggle dataset access
         env:
           KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
         run: |
-          if [ -z "$KAGGLE_API_TOKEN" ]; then
-            echo "TOKEN_STATUS=EMPTY"
-            exit 1
-          else
-            echo "TOKEN_STATUS=PRESENT"
-          fi
+          echo "Testing access to private Kaggle dataset..."
+          kaggle datasets files samsonomar/project-source-data
