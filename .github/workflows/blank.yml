@@ -16,7 +16,7 @@ jobs:
       - name: Install Kaggle CLI
         run: |
           python -m pip install --upgrade pip
-          pip install kaggle
+          pip install kaggle pandas
 
       - name: Download Kaggle dataset
         env:
@@ -24,7 +24,13 @@ jobs:
         run: |
           mkdir -p data
           kaggle datasets download samsonomar/project-source-data \
-                - name: Inspect dataset
+            --path data \
+            --unzip
+
+          echo "Downloaded files:"
+          find data -maxdepth 2 -type f -printf '%p\n'
+
+      - name: Inspect dataset
         run: |
           python - <<'PY'
           import pandas as pd
@@ -53,8 +59,3 @@ jobs:
               print("\nFirst 3 rows:")
               print(df.head(3).to_string())
           PY
-            --path data \
-            --unzip
-
-          echo "Downloaded files:"
-          find data -maxdepth 2 -type f -printf '%p\n'
