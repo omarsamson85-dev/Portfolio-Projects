@@ -4,9 +4,9 @@ An interactive Tableau analysis of Airbnb listing, review, and calendar data, fo
 
 ## 📊 Dashboard Preview
 
-**Browser preview:** the static dashboard image is not currently stored in this GitHub folder. The README previously referenced `Tableau_Airbnb_Dashboard.png`, but that file is absent from the repository. The workbook itself is present and can be downloaded for use in Tableau Desktop.
+![Airbnb Tableau Dashboard](Tableu_AirBnB_Dashboard.PNG)
 
-> GitHub does not render Tableau `.twb` files as interactive dashboards. A PNG export of the completed Tableau dashboard should be uploaded as `Tableau_Airbnb_Dashboard.png` to enable an immediate browser-based preview here.
+The image above is a static export of the completed Tableau dashboard for quick viewing on GitHub. The Tableau workbook is also included for download and further analysis in Tableau Desktop.
 
 ## 🎯 Business Questions
 
@@ -66,22 +66,19 @@ The working data model contains three related sheets:
 | File | Purpose |
 |---|---|
 | `AirBnB Full Project.twb` | Tableau workbook containing the analysis and dashboard |
-| `Tableau_Airbnb_Dashboard.png` | Static dashboard preview — **to be uploaded** |
-| `Tableau Full Project.xlsx` | Excel source workbook referenced by the Tableau project — **not currently present in this folder** |
+| `Tableu_AirBnB_Dashboard.PNG` | Static dashboard preview |
 
-**[Open the Tableau workbook](AirBnB%20Full%20Project.twb)**
+**[Download the Tableau workbook](AirBnB%20Full%20Project.twb)**
 
-### Why the workbook may not open directly in GitHub
+### Why the workbook does not open as an interactive dashboard on GitHub
 
-GitHub is a source-code and file repository; it does not provide an interactive Tableau viewer. Clicking the `.twb` file may therefore result in GitHub's generic **“An unexpected error occurred”** viewer message. That does not necessarily mean the Tableau workbook is corrupt.
-
-For the dashboard itself, use Tableau Desktop. For recruiters and browser visitors, the PNG dashboard preview is the preferred presentation format.
+GitHub does not provide an interactive Tableau viewer. The `.twb` file is provided as the source workbook for use in **Tableau Desktop**, while the PNG provides a browser-friendly preview for recruiters and visitors.
 
 ## 🔄 Reproducibility
 
 The Tableau workbook contains a local Excel connection from the original development environment. When the workbook is opened on another computer, Tableau may require the Excel data source to be repointed to the appropriate copy of the source workbook.
 
-The repository currently contains the `.twb` workbook but **does not contain the referenced `Tableau Full Project.xlsx` source workbook**, so full reproduction requires that source file separately.
+The repository currently contains the Tableau workbook and dashboard preview image. The original Excel source workbook is not included in this project folder, so full reproduction may require obtaining the source dataset separately.
 
 ## 📌 Attribution
 
