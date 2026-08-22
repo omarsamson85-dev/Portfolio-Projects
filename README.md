@@ -11,6 +11,7 @@ This repository is designed to give recruiters, hiring managers, and other visit
 | [COVID-19 Data Analysis](SQL_Projects/COVID-19/README.md) | Exploratory analysis of cases, deaths, population, and vaccination data | SQL Server |
 | [National Housing Data Cleaning](SQL_Projects/Nashville_Housing/README.md) | Data cleaning, standardization, deduplication, and preparation for analysis | SQL Server |
 | [Bike Buyers Analysis](Excel_Bike_Buyers/README.md) | Data preparation, pivot-table analysis, visualization, and dashboarding | Microsoft Excel |
+| [Airbnb Data Analysis — Tableau](Tableau_Projects/Airbnb-Analysis/README.md) | Pricing, bedroom distribution, ZIP-code analysis, and revenue trends | Tableau, Excel |
 
 ## What This Portfolio Demonstrates
 
@@ -19,7 +20,8 @@ This repository is designed to give recruiters, hiring managers, and other visit
 - SQL querying and analytical transformations
 - JOINs, aggregations, CTEs, window functions, and temporary tables
 - Excel formulas and pivot tables
-- Data visualization and dashboard development
+- Tableau data preparation and dashboard development
+- Geographic and time-series visualization
 - Communicating findings through clear project documentation
 
 ## Project Navigation
@@ -45,7 +47,7 @@ Key techniques include data exploration, aggregations, JOINs, window functions, 
 
 Key techniques include address standardization, missing-value handling, string manipulation, duplicate detection/removal, `CASE`, `COALESCE`, JOINs, CTEs, and `ROW_NUMBER()`.
 
-### 2. Bike Buyers Analysis – Advanced Excel
+### 2. Bike Buyers Analysis — Advanced Excel
 
 This project uses Microsoft Excel for data preparation, formula-based analysis, pivot tables, visualization, and dashboard development.
 
@@ -55,13 +57,22 @@ This project uses Microsoft Excel for data preparation, formula-based analysis, 
 
 ![Bike Buyers Dashboard](Excel_Bike_Buyers/dashboard.png)
 
+### 3. Airbnb Data Analysis — Tableau
+
+This project uses Tableau to analyze Airbnb listing, review, and calendar data. The dashboard examines pricing by bedroom count, listing distribution, ZIP-code price variation, geographic patterns, and revenue trends.
+
+- [Project overview](Tableau_Projects/Airbnb-Analysis/README.md)
+- [Tableau project folder](Tableau_Projects/Airbnb-Analysis/)
+
 ## How to Review the Projects
 
-**For recruiters and hiring managers:** Start with the project overviews above, then open the SQL scripts or Excel workbook to inspect the implementation.
+**For recruiters and hiring managers:** Start with the project overviews above, then open the SQL scripts, Excel workbooks, or Tableau project files to inspect the implementation.
 
 **For SQL review:** Open the `.sql` files in SQL Server Management Studio or another SQL Server-compatible editor. The scripts expect the datasets to be available in SQL Server tables as documented in each project.
 
-**For Excel review:** GitHub does not provide an interactive spreadsheet experience for `.xlsx` files. Download the workbook and open it in Microsoft Excel or another compatible spreadsheet application. The dashboard image is included for an immediate browser-based preview.
+**For Excel review:** GitHub does not provide an interactive spreadsheet experience for `.xlsx` files. Download the workbook and open it in Microsoft Excel or another compatible spreadsheet application. Dashboard images are included where available for immediate browser-based previews.
+
+**For Tableau review:** Open the project README first for the dashboard preview, analytical questions, key observations, tools, and reproducibility notes. The Tableau workbook can then be opened in Tableau Desktop.
 
 ## Data Sources & Attribution
 
@@ -89,9 +100,13 @@ The `bike_buyers` worksheet contains the source dataset used as the starting poi
 
 The portfolio does not claim ownership of the underlying source dataset. The workbook preparation, analysis, pivot-table work, dashboard, and documentation are the portfolio author's work.
 
+### Airbnb Data
+
+The Airbnb data used in the Tableau project was obtained from Kaggle. The repository does not claim ownership of the underlying third-party dataset. Anyone redistributing the source data should verify the applicable Kaggle dataset license and attribution requirements.
+
 ## Original Portfolio Work
 
-The SQL scripts, analysis documentation, Excel workbook work, dashboard presentation, and other original materials created for this portfolio should be distinguished from the third-party source datasets described above.
+The SQL scripts, analysis documentation, Excel workbook work, Tableau analysis, dashboard presentation, and other original materials created for this portfolio should be distinguished from the third-party source datasets described above.
 
 No separate open-source license is currently granted for the repository's original materials. Unless a license is added later, those original materials remain subject to applicable copyright law.
 
@@ -100,4 +115,5 @@ No separate open-source license is currently granted for the repository's origin
 - Microsoft SQL Server
 - SQL Server Management Studio (SSMS)
 - Microsoft Excel
+- Tableau
 - GitHub
