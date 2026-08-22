@@ -29,9 +29,9 @@ A practical portfolio of data analytics projects focused on **data cleaning, exp
 
 ### Airbnb — Tableau Dashboard
 
-> **Dashboard preview:** the Tableau workbook is included in the repository, but the static dashboard image still needs to be exported from Tableau and uploaded to `Tableau_Projects/Airbnb-Analysis/Tableau_Airbnb_Dashboard.png`. Until that image is added, GitHub cannot display the Airbnb dashboard preview in the browser.
+![Airbnb Tableau Dashboard](Tableau_Projects/Airbnb-Analysis/Tableu_AirBnB_Dashboard.PNG)
 
-[Open the Airbnb project →](Tableau_Projects/Airbnb-Analysis/README.md)
+[Open the Airbnb Tableau project →](Tableau_Projects/Airbnb-Analysis/README.md)
 
 ---
 
@@ -87,7 +87,8 @@ Portfolio-Projects/
 ├── Tableau_Projects/
 │   └── Airbnb-Analysis/
 │       ├── README.md
-│       └── AirBnB Full Project.twb
+│       ├── AirBnB Full Project.twb
+│       └── Tableu_AirBnB_Dashboard.PNG
 │
 └── README.md
 ```
@@ -133,8 +134,9 @@ An interactive Tableau analysis examining pricing, bedroom distribution, ZIP-cod
 
 - [Project overview](Tableau_Projects/Airbnb-Analysis/README.md)
 - [Tableau workbook](Tableau_Projects/Airbnb-Analysis/AirBnB%20Full%20Project.twb)
+- [Dashboard preview](Tableau_Projects/Airbnb-Analysis/Tableu_AirBnB_Dashboard.PNG)
 
-**Important:** GitHub does not render Tableau `.twb` files as interactive dashboards. The repository therefore provides the workbook for download and a static PNG preview for browser viewing once the image is uploaded.
+**Important:** GitHub does not render Tableau `.twb` files as interactive dashboards. The repository provides the workbook for download and the dashboard PNG for browser viewing.
 
 ---
 
@@ -142,7 +144,7 @@ An interactive Tableau analysis examining pricing, bedroom distribution, ZIP-cod
 
 - **SQL projects:** Open the `.sql` files in SQL Server Management Studio or another SQL Server-compatible environment. The project READMEs document the expected tables and datasets.
 - **Excel project:** Download the workbook and open it in Microsoft Excel or another compatible spreadsheet application.
-- **Tableau project:** Open the `.twb` file in Tableau Desktop. The workbook was originally created with a local Excel connection, so Tableau may require the data source to be repointed to the repository copy of the Excel source workbook if that workbook is included separately.
+- **Tableau project:** Open the `.twb` file in Tableau Desktop. The workbook was originally created with a local Excel connection, so Tableau may require the data source to be repointed to the appropriate source workbook.
 
 ---
 
