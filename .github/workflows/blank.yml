@@ -18,9 +18,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install kaggle
 
-      - name: Test Kaggle dataset access
+      - name: Download Kaggle dataset
         env:
           KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
         run: |
-          echo "Testing access to private Kaggle dataset..."
-          kaggle datasets files samsonomar/project-source-data
+          mkdir -p data
+          kaggle datasets download samsonomar/project-source-data \
+            --path data \
+            --unzip
+
+          echo "Downloaded files:"
+          find data -maxdepth 2 -type f -printf '%p\n'
