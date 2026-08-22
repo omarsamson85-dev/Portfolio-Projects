@@ -1,9 +1,10 @@
-import streamlit as st
+import os
+from pathlib import Path
+
+import kagglehub
 import pandas as pd
 import plotly.express as px
-from pathlib import Path
-import subprocess
-import zipfile
+import streamlit as st
 
 st.set_page_config(page_title="Seattle Airbnb Market Dashboard", page_icon="🏠", layout="wide")
 st.title("🏠 Seattle Airbnb Market Dashboard")
@@ -15,21 +16,26 @@ DATA_DIR.mkdir(exist_ok=True)
 @st.cache_data
 
 def load_data():
-    files = {"listings": DATA_DIR / "listings.csv", "calendar": DATA_DIR / "calendar.csv", "reviews": DATA_DIR / "reviews.csv"}
-    if not all(p.exists() for p in files.values()):
-        token = st.secrets.get("KAGGLE_API_TOKEN")
-        if not token:
-            st.error("Kaggle data is not available. Add KAGGLE_API_TOKEN to Streamlit Secrets.")
-            st.stop()
-        import os
-        os.environ["KAGGLE_API_TOKEN"] = token
-        subprocess.run(["kaggle", "datasets", "download", "samsonomar/project-source-data", "--path", str(DATA_DIR), "--unzip", "--force"], check=True)
+    token = st.secrets.get("KAGGLE_API_TOKEN")
+    if not token:
+        st.error("Kaggle data is not available. Add KAGGLE_API_TOKEN to Streamlit Secrets.")
+        st.stop()
 
-    listings = pd.read_csv(files["listings"])
-    calendar = pd.read_csv(files["calendar"])
-    reviews = pd.read_csv(files["reviews"])
-    listings["price"] = pd.to_numeric(listings["price"].astype(str).str.replace("$", "", regex=False).str.replace(",", ""), errors="coerce")
-    calendar["price"] = pd.to_numeric(calendar["price"].astype(str).str.replace("$", "", regex=False).str.replace(",", ""), errors="coerce")
+    os.environ["KAGGLE_API_TOKEN"] = token
+    dataset_path = Path(kagglehub.dataset_download("samsonomar/project-source-data"))
+
+    def find_file(name):
+        matches = list(dataset_path.rglob(name))
+        if not matches:
+            raise FileNotFoundError(f"Could not find {name} in the Kaggle dataset.")
+        return matches[0]
+
+    listings = pd.read_csv(find_file("listings.csv"))
+    calendar = pd.read_csv(find_file("calendar.csv"))
+    reviews = pd.read_csv(find_file("reviews.csv"))
+
+    listings["price"] = pd.to_numeric(listings["price"].astype(str).str.replace("$", "", regex=False).str.replace(",", "", regex=False), errors="coerce")
+    calendar["price"] = pd.to_numeric(calendar["price"].astype(str).str.replace("$", "", regex=False).str.replace(",", "", regex=False), errors="coerce")
     calendar["date"] = pd.to_datetime(calendar["date"], errors="coerce")
     reviews["date"] = pd.to_datetime(reviews["date"], errors="coerce")
     return listings, calendar, reviews
