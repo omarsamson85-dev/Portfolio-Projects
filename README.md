@@ -1,119 +1,190 @@
 # Data Analytics Portfolio
 
-A practical data analytics portfolio by **SAMSON OMAR**, focused on **SQL Server, Excel, data cleaning, exploratory analysis, and dashboard development**.
+**Samson Omar** · Data Analyst | SQL Server · Excel · Tableau
 
-This repository is designed to give recruiters, hiring managers, and other visitors a quick view of hands-on analytics work, the techniques used, and the supporting project files.
+A practical portfolio of data analytics projects focused on **data cleaning, exploratory analysis, SQL, Excel reporting, and Tableau dashboard development**. Each project is documented with its business questions, methods, tools, and supporting files.
 
-## Portfolio Highlights
+> **Portfolio goal:** turn raw data into clear, decision-ready insights through reproducible analysis and effective visual communication.
 
-| Project | Focus | Tools |
+---
+
+## Featured Projects
+
+| Project | What it demonstrates | Tools |
 |---|---|---|
-| [COVID-19 Data Analysis](SQL_Projects/COVID-19/README.md) | Exploratory analysis of cases, deaths, population, and vaccination data | SQL Server |
-| [National Housing Data Cleaning](SQL_Projects/Nashville_Housing/README.md) | Data cleaning, standardization, deduplication, and preparation for analysis | SQL Server |
-| [Bike Buyers Analysis](Excel_Bike_Buyers/README.md) | Data preparation, pivot-table analysis, visualization, and dashboarding | Microsoft Excel |
-| [Airbnb Data Analysis — Tableau](Tableau_Projects/Airbnb-Analysis/README.md) | Pricing, bedroom distribution, ZIP-code analysis, and revenue trends | Tableau, Excel |
+| **[COVID-19 Data Analysis](SQL_Projects/COVID-19/README.md)** | Global cases, deaths, infection rates, vaccination progress, CTEs, joins and window functions | SQL Server |
+| **[National Housing Data Cleaning](SQL_Projects/Nashville_Housing/README.md)** | Data cleaning, standardization, missing-value handling, deduplication and transformation | SQL Server |
+| **[Bike Buyers Analysis](Excel_Bike_Buyers/README.md)** | Data preparation, formulas, pivot tables, visualization and dashboard development | Excel |
+| **[Airbnb Data Analysis — Tableau](Tableau_Projects/Airbnb-Analysis/README.md)** | Pricing, bedroom distribution, ZIP-code analysis and revenue trends | Tableau · Excel |
 
-## What This Portfolio Demonstrates
+---
 
-- Data cleaning and preparation
+## 📊 Dashboard Previews
+
+### Bike Buyers — Excel Dashboard
+
+![Bike Buyers Dashboard](Excel_Bike_Buyers/dashboard.png)
+
+[Open the Bike Buyers project →](Excel_Bike_Buyers/README.md)
+
+### Airbnb — Tableau Dashboard
+
+> **Dashboard preview:** the Tableau workbook is included in the repository, but the static dashboard image still needs to be exported from Tableau and uploaded to `Tableau_Projects/Airbnb-Analysis/Tableau_Airbnb_Dashboard.png`. Until that image is added, GitHub cannot display the Airbnb dashboard preview in the browser.
+
+[Open the Airbnb project →](Tableau_Projects/Airbnb-Analysis/README.md)
+
+---
+
+## 🧰 Skills Demonstrated
+
+### Data Analysis
 - Exploratory data analysis (EDA)
-- SQL querying and analytical transformations
-- JOINs, aggregations, CTEs, window functions, and temporary tables
-- Excel formulas and pivot tables
-- Tableau data preparation and dashboard development
-- Geographic and time-series visualization
-- Communicating findings through clear project documentation
+- Data cleaning and preparation
+- Descriptive and comparative analysis
+- Geographic and time-series analysis
+- Business-focused insight generation
 
-## Project Navigation
+### SQL Server
+- Filtering and aggregation
+- JOINs
+- CTEs
+- Window functions
+- Temporary tables
+- Calculated metrics
+- Data transformation
 
-### 1. SQL Projects
+### Excel
+- Data preparation
+- Excel formulas
+- Pivot tables
+- Pivot-based visualizations
+- Interactive dashboard development
 
-The SQL portfolio demonstrates practical work with **Microsoft SQL Server / SQL Server Management Studio (SSMS)**.
+### Tableau
+- Data connection and preparation
+- Calculated measures
+- Geographic visualization
+- Time-series analysis
+- Dashboard composition and visual storytelling
 
-**COVID-19 Data Analysis**
+---
+
+## 📁 Repository Structure
+
+```text
+Portfolio-Projects/
+├── SQL_Projects/
+│   ├── COVID-19/
+│   ├── COVID-19_Data_Analysis.sql
+│   ├── Nashville_Housing/
+│   └── Nashville_Housing_Data_Cleaning.sql
+│
+├── Excel_Bike_Buyers/
+│   ├── README.md
+│   ├── Advanced_Excel_Bike_Sales_Analysis.Xlsx
+│   └── dashboard.png
+│
+├── Tableau_Projects/
+│   └── Airbnb-Analysis/
+│       ├── README.md
+│       └── AirBnB Full Project.twb
+│
+└── README.md
+```
+
+---
+
+## 🔎 Project Guide
+
+### 1. COVID-19 Data Analysis
+
+A SQL Server project exploring cases, deaths, population infection rates, global statistics, and vaccination progress.
 
 - [Project overview](SQL_Projects/COVID-19/README.md)
 - [SQL analysis script](SQL_Projects/COVID-19_Data_Analysis.sql)
 - [COVID-19 deaths dataset](SQL_Projects/COVID-19/CovidDeaths.xlsx)
 - [COVID-19 vaccination dataset](SQL_Projects/COVID-19/CovidVacination.xlsx)
 
-Key techniques include data exploration, aggregations, JOINs, window functions, CTEs, temporary tables, views, and calculated metrics.
+**Key techniques:** JOINs, CTEs, window functions, temporary tables, aggregations, calculated metrics, and exploratory analysis.
 
-**National Housing Data Cleaning**
+### 2. National Housing Data Cleaning
+
+A SQL Server project focused on preparing a housing dataset for analysis through systematic cleaning and transformation.
 
 - [Project overview](SQL_Projects/Nashville_Housing/README.md)
-- [SQL cleaning script](SQL_Projects/Nashville_Housing_Data_Cleaning.sql)
+- [SQL cleaning script](Nashville_Housing_Data_Cleaning.sql)
 - [Source housing workbook](SQL_Projects/Nashville_Housing/Nashville%20Housing%20Data%20for%20Data%20Cleaning.xlsx)
 
-Key techniques include address standardization, missing-value handling, string manipulation, duplicate detection/removal, `CASE`, `COALESCE`, JOINs, CTEs, and `ROW_NUMBER()`.
+**Key techniques:** address standardization, missing-value handling, string manipulation, `CASE`, `COALESCE`, JOINs, CTEs, and `ROW_NUMBER()`.
 
-### 2. Bike Buyers Analysis — Advanced Excel
+### 3. Bike Buyers Analysis — Advanced Excel
 
-This project uses Microsoft Excel for data preparation, formula-based analysis, pivot tables, visualization, and dashboard development.
+An Excel analysis covering data preparation, formulas, pivot tables, visualization, and dashboard development.
 
 - [Project overview](Excel_Bike_Buyers/README.md)
 - [Excel workbook](Excel_Bike_Buyers/Advanced_Excel_Bike_Sales_Analysis.Xlsx)
-- [Dashboard preview](Excel_Bike_Buyers/dashboard.png)
+- [Dashboard image](Excel_Bike_Buyers/dashboard.png)
 
-![Bike Buyers Dashboard](Excel_Bike_Buyers/dashboard.png)
+**Note:** GitHub does not provide an interactive Excel spreadsheet experience. Download the workbook to inspect the formulas, pivot tables, and interactive dashboard.
 
-### 3. Airbnb Data Analysis — Tableau
+### 4. Airbnb Data Analysis — Tableau
 
-This project uses Tableau to analyze Airbnb listing, review, and calendar data. The dashboard examines pricing by bedroom count, listing distribution, ZIP-code price variation, geographic patterns, and revenue trends.
+An interactive Tableau analysis examining pricing, bedroom distribution, ZIP-code variation, geographic patterns, and revenue trends.
 
 - [Project overview](Tableau_Projects/Airbnb-Analysis/README.md)
-- [Tableau project folder](Tableau_Projects/Airbnb-Analysis/)
+- [Tableau workbook](Tableau_Projects/Airbnb-Analysis/AirBnB%20Full%20Project.twb)
 
-## How to Review the Projects
+**Important:** GitHub does not render Tableau `.twb` files as interactive dashboards. The repository therefore provides the workbook for download and a static PNG preview for browser viewing once the image is uploaded.
 
-**For recruiters and hiring managers:** Start with the project overviews above, then open the SQL scripts, Excel workbooks, or Tableau project files to inspect the implementation.
+---
 
-**For SQL review:** Open the `.sql` files in SQL Server Management Studio or another SQL Server-compatible editor. The scripts expect the datasets to be available in SQL Server tables as documented in each project.
+## 📌 Reproducibility Notes
 
-**For Excel review:** GitHub does not provide an interactive spreadsheet experience for `.xlsx` files. Download the workbook and open it in Microsoft Excel or another compatible spreadsheet application. Dashboard images are included where available for immediate browser-based previews.
+- **SQL projects:** Open the `.sql` files in SQL Server Management Studio or another SQL Server-compatible environment. The project READMEs document the expected tables and datasets.
+- **Excel project:** Download the workbook and open it in Microsoft Excel or another compatible spreadsheet application.
+- **Tableau project:** Open the `.twb` file in Tableau Desktop. The workbook was originally created with a local Excel connection, so Tableau may require the data source to be repointed to the repository copy of the Excel source workbook if that workbook is included separately.
 
-**For Tableau review:** Open the project README first for the dashboard preview, analytical questions, key observations, tools, and reproducibility notes. The Tableau workbook can then be opened in Tableau Desktop.
+---
 
-## Data Sources & Attribution
+## 🗂️ Data Sources & Attribution
 
-### COVID-19 Data
+### COVID-19
 
-The COVID-19 analysis uses COVID-19 data obtained from the **World Health Organization (WHO)** and prepared for SQL Server analysis.
+The COVID-19 project uses WHO COVID-19 data prepared for SQL Server analysis. The portfolio does not claim WHO endorsement, affiliation, or sponsorship.
 
-WHO currently states that, unless specifically indicated otherwise, datasets on data.who.int are provided under **Creative Commons Attribution 4.0 International (CC BY 4.0)** with additional WHO terms and conditions. Some datasets may contain material credited to other providers and those components can have separate terms.
+Official source: https://data.who.int/
 
-**Attribution:** World Health Organization (WHO), COVID-19 data, data.who.int.
+### National Housing
 
-The portfolio does not claim WHO endorsement, affiliation, or sponsorship.
+The housing workbook is a third-party source dataset. The portfolio does not claim ownership of the underlying dataset. Users redistributing the source workbook should verify its original provider and licensing requirements.
 
-Source licensing information: https://data.who.int/about/data/terms-and-conditions
+### Bike Buyers
 
-### National Housing Data
+The `bike_buyers` worksheet contains the source dataset used for the Excel analysis. The original provider/license for this copy is not recorded in the repository metadata. The portfolio does not claim ownership of the underlying source dataset.
 
-The retained source workbook is named **`Nashville Housing Data for Data Cleaning.xlsx`** because that is the filename of the source workbook used for the project. After import into SQL Server, the working table is named **`NationalHousing`**.
+### Airbnb
 
-The repository does not claim ownership of the underlying third-party housing dataset. The SQL cleaning work, transformations, documentation, and analysis are the portfolio author's work. Anyone redistributing the underlying workbook should verify the original provider's licensing and attribution requirements first.
+The Airbnb dataset was obtained from Kaggle. The portfolio does not claim ownership of the underlying third-party data. Users redistributing the source data should verify the applicable Kaggle license and attribution requirements.
 
-### Bike Buyers Data
+---
 
-The `bike_buyers` worksheet contains the source dataset used as the starting point for the Excel analysis. The original provider/license for this particular copy is not recorded in the repository metadata.
+## 👤 About
 
-The portfolio does not claim ownership of the underlying source dataset. The workbook preparation, analysis, pivot-table work, dashboard, and documentation are the portfolio author's work.
+**Samson Omar**
 
-### Airbnb Data
+Data analytics portfolio focused on practical SQL, Excel, data preparation, exploratory analysis, and dashboard development.
 
-The Airbnb data used in the Tableau project was obtained from Kaggle. The repository does not claim ownership of the underlying third-party dataset. Anyone redistributing the source data should verify the applicable Kaggle dataset license and attribution requirements.
+- GitHub: [@omarsamson85-dev](https://github.com/omarsamson85-dev)
 
-## Original Portfolio Work
+---
 
-The SQL scripts, analysis documentation, Excel workbook work, Tableau analysis, dashboard presentation, and other original materials created for this portfolio should be distinguished from the third-party source datasets described above.
+## ⭐ How to Review This Portfolio
 
-No separate open-source license is currently granted for the repository's original materials. Unless a license is added later, those original materials remain subject to applicable copyright law.
+If you are a recruiter or hiring manager, a useful path is:
 
-## Tools
+1. Start with the **dashboard previews** above.
+2. Open the relevant **project README** for the business questions and findings.
+3. Inspect the SQL scripts or Excel/Tableau project files to see the implementation.
+4. Review the reproducibility notes where applicable.
 
-- Microsoft SQL Server
-- SQL Server Management Studio (SSMS)
-- Microsoft Excel
-- Tableau
-- GitHub
+The emphasis throughout the portfolio is on **clean analysis, transparent methodology, and communicating results clearly**.
