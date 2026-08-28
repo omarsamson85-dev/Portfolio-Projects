@@ -1,21 +1,29 @@
-# Bike Buyers Analysis – Advanced Excel Project
+# Bike Buyers Analysis — Advanced Excel
 
-## Project Overview
+## 📊 Project Overview
 
-This project demonstrates the use of **Microsoft Excel** to clean, analyze, and visualize a bike buyers dataset.
+This project uses **Microsoft Excel** to clean, analyze, and visualize a bike buyers dataset.
 
-The project includes data preparation, Excel formulas, pivot table analysis, and an interactive dashboard designed to communicate key findings clearly.
+The workbook combines data preparation, Excel formulas, pivot-table analysis, and an interactive dashboard to turn customer information into clear business insights.
 
-## Workbook Structure
+## 🎯 Objectives
 
-The Excel workbook contains the following sheets:
+- Prepare and clean the source dataset
+- Analyze customer characteristics and purchasing behavior
+- Summarize results using pivot tables
+- Build an interactive dashboard
+- Present findings through clear visualizations
 
-1. **bike_buyers** — original dataset used for the analysis.
-2. **Working Sheet** — cleaned and prepared data used for analysis.
-3. **Pivot Table** — pivot tables used to summarize and analyze the dataset.
-4. **Dashboard** — final dashboard containing visualizations and key findings.
+## 📑 Workbook Structure
 
-## Skills Demonstrated
+| Sheet | Purpose |
+|---|---|
+| **bike_buyers** | Original dataset used for the analysis |
+| **Working Sheet** | Cleaned and prepared analysis data |
+| **Pivot Table** | Summary tables used for analysis |
+| **Dashboard** | Final interactive dashboard |
+
+## 🧰 Skills Demonstrated
 
 - Data cleaning and preparation
 - Excel formulas
@@ -23,17 +31,28 @@ The Excel workbook contains the following sheets:
 - Data analysis
 - Data visualization
 - Dashboard development
-- Business insights
+- Business insight communication
 
-## Dashboard Preview
+## 🖥️ Dashboard Preview
 
 ![Bike Buyers Dashboard](dashboard.png)
 
-## Project File
+## 📁 Project File
 
 [Download / open the Excel workbook](Advanced_Excel_Bike_Sales_Analysis.Xlsx)
 
-## Data Source & Attribution
+> **Note:** GitHub does not provide a full interactive Excel spreadsheet experience. Download the workbook and open it in Microsoft Excel to inspect the formulas, pivot tables, working sheet, and dashboard.
+
+## 🔄 Analysis Workflow
+
+1. Review the original `bike_buyers` dataset.
+2. Prepare the data in the working sheet.
+3. Use Excel formulas and transformations to support analysis.
+4. Build pivot tables for aggregation and comparison.
+5. Develop the dashboard from the summarized analysis.
+6. Present the results through interactive visualizations.
+
+## 🗃️ Data Source & Attribution
 
 The `bike_buyers` sheet contains the source dataset used as the starting point for this analysis. The original provider/license for this particular copy is not recorded in the repository metadata.
 
@@ -41,4 +60,6 @@ This portfolio does not claim ownership of the underlying source dataset. The cl
 
 If the underlying dataset is redistributed independently of this portfolio, its original provider and applicable licensing/attribution requirements should be verified first.
 
-> **Note:** GitHub does not provide an interactive Excel spreadsheet viewer. If the workbook does not preview in your browser, use the project-file link above to download it and open it with Microsoft Excel or another compatible spreadsheet application.
+## 🎯 Skills Demonstrated
+
+Excel · Data Cleaning · Data Preparation · Formulas · Pivot Tables · Data Visualization · Dashboard Development · Business Analysis
