@@ -1,0 +1,56 @@
+name: Download Airbnb Dataset from Kaggle
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Refresh the dataset artifact once a month.
+    - cron: '0 3 1 * *'
+  push:
+    paths:
+      - '.github/workflows/download-kaggle-airbnb.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  download-dataset:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Kaggle CLI
+        run: python -m pip install --upgrade pip kaggle
+
+      - name: Download Airbnb dataset from Kaggle
+        env:
+          KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
+        run: |
+          mkdir -p data/airbnb
+          kaggle datasets download \
+            -d alexanderfreberg/airbnb-listings-2016-dataset \
+            -p data/airbnb \
+            --unzip
+
+      - name: Show downloaded files
+        run: |
+          echo "Downloaded Kaggle dataset files:"
+          find data/airbnb -maxdepth 2 -type f -print
+
+      - name: Package dataset for download
+        run: |
+          cd data/airbnb
+          zip -r ../../airbnb-listings-2016-dataset.zip .
+
+      - name: Upload dataset as workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: airbnb-listings-2016-dataset
+          path: airbnb-listings-2016-dataset.zip
+          retention-days: 30
