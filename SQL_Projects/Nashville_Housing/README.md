@@ -1,28 +1,25 @@
-# National Housing Data Cleaning
+# National Housing Data Cleaning — SQL Server
 
-## Project Overview
+## 📊 Project Overview
 
-This project demonstrates the use of **Microsoft SQL Server** to clean and prepare housing data for analysis.
+This project demonstrates how **Microsoft SQL Server** can be used to clean, standardize, and prepare housing data for analysis.
 
-The original source workbook used for the project is named **`Nashville Housing Data for Data Cleaning.xlsx`**. The source filename is retained in the repository for traceability.
+The source workbook is **`Nashville Housing Data for Data Cleaning.xlsx`**. After import into SQL Server, the working table used in the cleaning queries is `NationalHousing`.
 
-After import into SQL Server, the working table used throughout the cleaning queries is named **`NationalHousing`**. This is the table name used in the SQL script and project analysis.
+## 🎯 Data Cleaning Objectives
 
-## Data Cleaning Tasks
+- Standardize sale dates
+- Populate missing property addresses
+- Split property addresses into separate fields
+- Split owner addresses into separate fields
+- Standardize `Sold As Vacant` values
+- Handle selected missing values
+- Identify and remove duplicate records
+- Remove redundant columns
 
-- Standardizing sale dates
-- Populating missing property addresses
-- Splitting property addresses into separate fields
-- Splitting owner addresses into separate fields
-- Standardizing `Sold As Vacant` values
-- Handling selected missing values
-- Identifying duplicate records
-- Removing duplicate records
-- Removing redundant columns
+## 🧰 SQL Techniques Demonstrated
 
-## SQL Techniques Demonstrated
-
-- SELECT
+- SELECT and filtering
 - UPDATE
 - ALTER TABLE
 - JOINs
@@ -32,22 +29,44 @@ After import into SQL Server, the working table used throughout the cleaning que
 - Common Table Expressions (CTEs)
 - ROW_NUMBER()
 - Duplicate detection and removal
+- Data transformation and standardization
 
-## SQL Table
+## 🗃️ Working Table
 
 `NationalHousing`
 
-## Project Files
+## 📁 Project Files
 
-- [Source Housing Dataset](Nashville%20Housing%20Data%20for%20Data%20Cleaning.xlsx)
-- [National Housing Data Cleaning SQL](../Nashville_Housing_Data_Cleaning.sql)
+| File | Purpose |
+|---|---|
+| [Source Housing Dataset](Nashville%20Housing%20Data%20for%20Data%20Cleaning.xlsx) | Original workbook used as the source |
+| [National Housing Data Cleaning SQL](../Nashville_Housing_Data_Cleaning.sql) | SQL Server cleaning and transformation queries |
 
-## Source & Attribution
+## 🔄 Workflow
+
+1. Import the source workbook into SQL Server.
+2. Inspect the structure and data-quality issues.
+3. Standardize and populate required fields.
+4. Split combined address fields into usable columns.
+5. Standardize categorical values.
+6. Identify and remove duplicate records.
+7. Remove columns that are no longer required.
+8. Produce a cleaner dataset suitable for downstream analysis.
+
+## 📌 Source & Attribution
 
 The Excel workbook is a third-party source dataset used as the starting point for this data-cleaning project. This repository does not claim ownership of the underlying source dataset.
 
-The SQL cleaning queries, transformations, documentation, and analysis presented in this project are the portfolio author's work.
+The SQL cleaning queries, transformations, documentation, and analysis presented here are the portfolio author's work.
 
-Because the exact original provider/license for the retained source workbook has not been established from the repository records, the source workbook should not be represented as an original dataset created by the portfolio author. Users who wish to redistribute the source workbook should verify the original provider's licensing and attribution requirements first.
+Because the exact original provider/license for the retained source workbook has not been established from the repository records, anyone redistributing the source workbook should verify the original provider's licensing and attribution requirements first.
 
-> **Note:** The Excel dataset may not preview as an interactive spreadsheet directly in GitHub. Use the dataset link to download it and open it in Microsoft Excel or another compatible application.
+## 📌 Reproducibility
+
+Open the SQL script in **SQL Server Management Studio (SSMS)** or another SQL Server-compatible environment. Download the source workbook and import it into SQL Server before running the cleaning workflow.
+
+> **Note:** GitHub may not preview the Excel file as an interactive spreadsheet. Download it and open it with Microsoft Excel or another compatible application.
+
+## 🎯 Skills Demonstrated
+
+SQL Server · Data Cleaning · Data Quality · Data Transformation · JOINs · CTEs · String Functions · Duplicate Handling · Data Preparation
