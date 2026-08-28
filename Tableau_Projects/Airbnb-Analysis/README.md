@@ -1,20 +1,18 @@
 # Airbnb Data Analysis — Tableau Dashboard
 
-An interactive Tableau analysis of Airbnb listing, review, and calendar data, focused on pricing, property characteristics, geographic variation, and revenue trends.
+An interactive analysis of Airbnb listing, review, and calendar data focused on **pricing, property characteristics, geographic variation, and revenue trends**.
 
-## 🚀 Live Interactive App
-
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://seattle-airbnb-market-dashboard.streamlit.app/)
+## 🚀 Live Interactive Dashboard
 
 **[Open the live Streamlit dashboard →](https://seattle-airbnb-market-dashboard.streamlit.app/)**
 
-Recruiters and hiring managers can open the live dashboard directly in their browser without downloading the Tableau workbook.
+The live dashboard provides a browser-based interactive experience for recruiters and visitors who do not have Tableau Desktop.
 
 ## 📊 Dashboard Preview
 
 ![Airbnb Tableau Dashboard](Tableu_AirBnB_Dashboard.PNG)
 
-The image above is a static export of the completed Tableau dashboard for quick viewing on GitHub. The Tableau workbook is also included for download and further analysis in Tableau Desktop.
+The image is a static export of the completed Tableau dashboard for quick viewing on GitHub. The Tableau workbook is included for further inspection in Tableau Desktop.
 
 ## 🎯 Business Questions
 
@@ -24,8 +22,6 @@ The image above is a static export of the completed Tableau dashboard for quick 
 4. How does revenue change throughout the year?
 
 ## 🔎 Dashboard Views
-
-The completed dashboard contains five main analytical views:
 
 - **Average Price Per Bedroom** — compares average listing price across bedroom categories.
 - **Listing Distribution by Bedroom Count** — shows the number of listings in each bedroom category.
@@ -80,19 +76,15 @@ The working data model contains three related sheets:
 
 **[Download the Tableau workbook](AirBnB%20Full%20Project.twb)**
 
-### Why the workbook does not open as an interactive dashboard on GitHub
-
-GitHub does not provide an interactive Tableau viewer. The `.twb` file is provided as the source workbook for use in **Tableau Desktop**, while the PNG provides a browser-friendly preview. The **live Streamlit dashboard above** provides the interactive browser experience for recruiters and visitors.
-
 ## 🔄 Reproducibility
 
-The Tableau workbook contains a local Excel connection from the original development environment. When the workbook is opened on another computer, Tableau may require the Excel data source to be repointed to the appropriate copy of the source workbook.
+The Tableau workbook contains a local Excel connection from the original development environment. When opened on another computer, Tableau may require the Excel data source to be repointed to the appropriate source workbook.
 
-The repository currently contains the Tableau workbook and dashboard preview image. The original Excel source workbook is not included in this project folder, so full reproduction may require obtaining the source dataset separately.
+The repository contains the Tableau workbook and dashboard preview image. The original Excel source workbook is not included in this project folder, so full reproduction may require obtaining the source dataset separately.
 
 ## 📌 Attribution
 
-The underlying Airbnb data was obtained from Kaggle. The project documentation, analysis, Tableau workbook, and dashboard design are the author's work; ownership and licensing of the underlying third-party data remain with the original provider(s). Anyone redistributing the source data should verify the applicable Kaggle dataset license and attribution requirements.
+The underlying Airbnb data was obtained from Kaggle. The project documentation, analysis, Tableau workbook, dashboard design, and Streamlit presentation are the author's work; ownership and licensing of the underlying third-party data remain with the original provider(s). Anyone redistributing the source data should verify the applicable Kaggle dataset license and attribution requirements.
 
 ## 👤 Author
 
