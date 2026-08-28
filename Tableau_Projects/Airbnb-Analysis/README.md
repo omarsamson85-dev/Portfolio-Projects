@@ -40,17 +40,19 @@ These are descriptive observations from the dashboard and should not be interpre
 
 ## 🗃️ Data Source
 
-The underlying Airbnb dataset was sourced from **Kaggle**.
+The underlying Airbnb dataset used in this project is the public **Airbnb Listings 2016 Dataset** published on Kaggle by **Alex The Analyst (Alexander Freberg)**.
+
+**[Open the exact Kaggle dataset →](https://www.kaggle.com/datasets/alexanderfreberg/airbnb-listings-2016-dataset)**
 
 **[View Samson Omar's Kaggle profile →](https://www.kaggle.com/samsonomar)**
+
+The Kaggle dataset is publicly accessible and contains 2016 Airbnb public listings data. The dataset page currently identifies **Alex The Analyst** as the publisher, so this dataset is **not owned by the Samson Omar Kaggle account**. citeturn0search0
 
 The working data model contains three related sheets:
 
 - **Listings** — property/listing attributes and host information
 - **Reviews** — guest review records
 - **Calendar** — listing availability, dates, and prices
-
-> **Note:** The Kaggle profile link above provides access to the author's Kaggle account. For direct dataset access, the exact Kaggle dataset URL should be added here once the specific dataset page is identified.
 
 ## 🧰 Tools & Skills
 
@@ -84,11 +86,11 @@ The working data model contains three related sheets:
 
 The Tableau workbook contains a local Excel connection from the original development environment. When opened on another computer, Tableau may require the Excel data source to be repointed to the appropriate source workbook.
 
-The repository contains the Tableau workbook and dashboard preview image. The original Excel source workbook is not included in this project folder, so full reproduction may require obtaining the source dataset separately from Kaggle.
+The repository contains the Tableau workbook and dashboard preview image. The original Excel source workbook is not included in this project folder, so full reproduction may require downloading the source dataset from Kaggle and preparing the Excel source expected by the workbook.
 
 ## 📌 Attribution
 
-The underlying Airbnb data was obtained from Kaggle. The project documentation, analysis, Tableau workbook, dashboard design, and Streamlit presentation are the author's work; ownership and licensing of the underlying third-party data remain with the original provider(s). Anyone redistributing the source data should verify the applicable Kaggle dataset license and attribution requirements.
+The underlying Airbnb data was obtained from the public Kaggle dataset linked above. The dataset is published by Alex The Analyst (Alexander Freberg). The project documentation, analysis, Tableau workbook, dashboard design, and Streamlit presentation are the author's work; ownership and licensing of the underlying third-party data remain with the original provider. Anyone redistributing the source data should verify the applicable Kaggle dataset license and attribution requirements.
 
 ## 👤 Author
 
