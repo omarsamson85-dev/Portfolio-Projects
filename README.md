@@ -16,7 +16,7 @@ A practical portfolio of data analytics projects focused on **data cleaning, exp
 | **[National Housing Data Cleaning](SQL_Projects/Nashville_Housing/README.md)** | Data cleaning, standardization, missing-value handling, deduplication and transformation | SQL Server |
 | **[Bike Buyers Analysis](Excel_Bike_Buyers/README.md)** | Data preparation, formulas, pivot tables, visualization and dashboard development | Excel |
 | **[Airbnb Data Analysis — Tableau](Tableau_Projects/Airbnb-Analysis/README.md)** | Pricing, bedroom distribution, ZIP-code analysis and revenue trends | Tableau · Excel |
-| **[Power BI Dashboard — Project](PowerBI_Projects/PowerBI-Project/README.md)** | Data transformation, data modeling, DAX, KPIs, interactive reporting and business insights | Power BI · Power Query · DAX |
+| **[Data Professional Survey Analysis — Power BI](PowerBI_Projects/PowerBI-Project/README.md)** | Survey analysis, Power Query, data modeling, DAX, KPIs and interactive reporting | Power BI · Power Query · DAX |
 
 ---
 
@@ -34,9 +34,9 @@ A practical portfolio of data analytics projects focused on **data cleaning, exp
 
 [Open the Airbnb Tableau project →](Tableau_Projects/Airbnb-Analysis/README.md)
 
-### Power BI Dashboard
+### Data Professional Survey — Power BI
 
-![Power BI Dashboard](PowerBI_Projects/PowerBI-Project/POWER_BI_DASHBOARD.PNG)
+![Data Professional Survey Dashboard](PowerBI_Projects/PowerBI-Project/POWER_BI_DASHBOARD.PNG)
 
 [Open the Power BI project →](PowerBI_Projects/PowerBI-Project/README.md)
 
@@ -81,6 +81,7 @@ A practical portfolio of data analytics projects focused on **data cleaning, exp
 - Data modeling
 - DAX measures
 - KPI development
+- Survey data analysis
 - Interactive reporting and visual storytelling
 
 ---
@@ -109,7 +110,7 @@ Portfolio-Projects/
 ├── PowerBI_Projects/
 │   └── PowerBI-Project/
 │       ├── README.md
-│       ├── Power_ Bi_ Project..pbix
+│       ├── Data_Professional_Survey_Analysis.pbix
 │       ├── Power BI - Final Project.xlsx
 │       └── POWER_BI_DASHBOARD.PNG
 │
@@ -161,16 +162,18 @@ An interactive Tableau analysis examining pricing, bedroom distribution, ZIP-cod
 
 **Important:** GitHub does not render Tableau `.twb` files as interactive dashboards. The repository provides the workbook for download and the dashboard PNG for browser viewing.
 
-### 5. Power BI Dashboard — Project
+### 5. Data Professional Survey Analysis — Power BI
 
-An end-to-end Power BI business intelligence project demonstrating source-data preparation, Power Query transformations, data modeling, DAX measures, KPI development, interactive visualizations, and business-focused reporting.
+An end-to-end Power BI project analyzing data-professional survey responses. The project covers source-data preparation, Power Query transformations, data modeling, DAX measures, KPI development, interactive visualization, and business-focused reporting.
 
 - [Project overview](PowerBI_Projects/PowerBI-Project/README.md)
-- [Power BI report](PowerBI_Projects/PowerBI-Project/Power_%20Bi_%20Project..pbix)
-- [Source dataset](PowerBI_Projects/PowerBI-Project/Power%20BI%20-%20Final%20Project.xlsx)
+- [Power BI report](PowerBI_Projects/PowerBI-Project/Data_Professional_Survey_Analysis.pbix)
+- [Source survey dataset](PowerBI_Projects/PowerBI-Project/Power%20BI%20-%20Final%20Project.xlsx)
 - [Dashboard preview](PowerBI_Projects/PowerBI-Project/POWER_BI_DASHBOARD.PNG)
 
-**Important:** GitHub does not render `.pbix` files as interactive Power BI dashboards. The repository provides the Power BI file for download, the source workbook for reproducibility, and a dashboard image for browser viewing.
+**Attribution:** The source dataset is the Data Professional Survey associated with Alex The Analyst. The portfolio project focuses on the analysis, modeling, transformations, measures, dashboard design, and presentation built from the survey data.
+
+**Important:** GitHub does not render `.pbix` files as interactive Power BI dashboards. The repository provides the Power BI report for download, the source workbook for reproducibility, and a dashboard image for browser viewing.
 
 ---
 
@@ -205,7 +208,7 @@ The Airbnb dataset was obtained from Kaggle. The portfolio does not claim owners
 
 ### Power BI
 
-The Power BI project uses the Excel workbook included in the project folder as its source dataset. The portfolio does not claim ownership of third-party source data beyond the work performed in preparing, modeling, analyzing, and visualizing it. Verify the applicable license and attribution requirements before redistributing the underlying source data.
+The Power BI project uses the **Data Professional Survey** dataset associated with **Alex The Analyst**. The Excel workbook included in the project folder is the source dataset used for the Power BI analysis. The portfolio does not claim ownership of the original survey responses or source dataset.
 
 ---
 
