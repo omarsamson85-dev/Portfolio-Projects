@@ -40,13 +40,13 @@ These are descriptive observations from the dashboard and should not be interpre
 
 ## 🗃️ Data Source
 
-The underlying Airbnb dataset used in this project is the public **Airbnb Listings 2016 Dataset** published on Kaggle by **Alex The Analyst (Alexander Freberg)**.
+The underlying Airbnb dataset used in this project was obtained from **Kaggle**. The project documentation does not attribute the dataset specifically to any individual analyst or content creator.
 
-**[Open the exact Kaggle dataset →](https://www.kaggle.com/datasets/alexanderfreberg/airbnb-listings-2016-dataset)**
+**[Open the Kaggle dataset →](https://www.kaggle.com/datasets/alexanderfreberg/airbnb-listings-2016-dataset)**
 
 **[View Samson Omar's Kaggle profile →](https://www.kaggle.com/samsonomar)**
 
-The Kaggle dataset is publicly accessible and contains 2016 Airbnb public listings data. The dataset page currently identifies **Alex The Analyst** as the publisher, so this dataset is **not owned by the Samson Omar Kaggle account**. citeturn0search0
+The dataset is publicly accessible on Kaggle and contains 2016 Airbnb public listings data. The link above is retained as the dataset reference used for this project; its current Kaggle publisher information is not being presented as the source of the analysis or as an endorsement of this project.
 
 The working data model contains three related sheets:
 
@@ -90,7 +90,7 @@ The repository contains the Tableau workbook and dashboard preview image. The or
 
 ## 📌 Attribution
 
-The underlying Airbnb data was obtained from the public Kaggle dataset linked above. The dataset is published by Alex The Analyst (Alexander Freberg). The project documentation, analysis, Tableau workbook, dashboard design, and Streamlit presentation are the author's work; ownership and licensing of the underlying third-party data remain with the original provider. Anyone redistributing the source data should verify the applicable Kaggle dataset license and attribution requirements.
+The underlying Airbnb data was obtained from the public Kaggle dataset linked above. This portfolio does not claim ownership of the underlying third-party data or attribute the dataset specifically to an individual analyst. The project documentation, analysis, Tableau workbook, dashboard design, and Streamlit presentation are the author's work; ownership and licensing of the underlying third-party data remain subject to the original source and its applicable terms. Anyone redistributing the source data should verify the applicable Kaggle dataset license and attribution requirements.
 
 ## 👤 Author
 
