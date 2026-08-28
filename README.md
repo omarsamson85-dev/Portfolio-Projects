@@ -204,7 +204,7 @@ The `bike_buyers` worksheet contains the source dataset used for the Excel analy
 
 ### Airbnb
 
-The Airbnb dataset was obtained from Kaggle. The portfolio does not claim ownership of the underlying third-party data. Users redistributing the source data should verify the applicable Kaggle license and attribution requirements.
+The Airbnb dataset was obtained from Kaggle. The portfolio does not claim ownership of the underlying third-party data or attribute the dataset specifically to an individual analyst. Users redistributing the source data should verify the applicable Kaggle license and attribution requirements.
 
 ### Power BI
 
