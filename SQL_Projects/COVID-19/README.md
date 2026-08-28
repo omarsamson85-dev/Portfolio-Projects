@@ -1,35 +1,23 @@
-# COVID-19 Data Analysis
+# COVID-19 Data Analysis — SQL Server
 
-## Project Overview
+## 📊 Project Overview
 
-This project analyzes COVID-19 cases, deaths, population, and vaccination data using **Microsoft SQL Server**.
+This project uses **Microsoft SQL Server** to analyze COVID-19 cases, deaths, population, and vaccination data.
 
-The analysis uses two related SQL Server tables:
+The analysis combines two related datasets — `CovidDeaths` and `CovidVaccination` — to explore global trends, country-level outcomes, infection rates, and vaccination progress.
 
-- `CovidDeaths`
-- `CovidVaccination`
+## 🎯 Objectives
 
-The source data was obtained from the **World Health Organization (WHO) COVID-19 data** and prepared for SQL Server analysis.
+- Analyze COVID-19 cases and deaths
+- Calculate death percentages and infection rates
+- Compare countries by infection and death counts
+- Examine global COVID-19 statistics
+- Analyze vaccination progress
+- Compare population and vaccination measures
 
-## Objectives
+## 🧰 SQL Skills Demonstrated
 
-The project explores:
-
-- COVID-19 cases and deaths
-- Death percentages
-- Percentage of population infected
-- Countries with the highest infection rates
-- Countries with the highest death counts
-- Global COVID-19 statistics
-- COVID-19 vaccination progress
-- Population versus vaccination rates
-
-## SQL Skills Demonstrated
-
-- SELECT statements
-- WHERE filtering
-- ORDER BY
-- GROUP BY
+- SELECT, WHERE, ORDER BY and GROUP BY
 - Aggregate functions
 - JOINs
 - Common Table Expressions (CTEs)
@@ -38,28 +26,49 @@ The project explores:
 - Calculated metrics
 - Data exploration and transformation
 
-## Project Files
+## 📁 Project Files
 
-- [COVID-19 Data Analysis SQL](../COVID-19_Data_Analysis.sql)
-- [CovidDeaths Dataset](CovidDeaths.xlsx)
-- [CovidVaccination Dataset](CovidVacination.xlsx)
+| File | Purpose |
+|---|---|
+| [COVID-19 Data Analysis SQL](../COVID-19_Data_Analysis.sql) | SQL analysis queries |
+| [CovidDeaths Dataset](CovidDeaths.xlsx) | Cases, deaths and population data |
+| [CovidVaccination Dataset](CovidVacination.xlsx) | Vaccination data |
 
-## Dataset Source & Attribution
+## 🔄 Data Preparation & Analysis
 
-**Source:** World Health Organization (WHO), COVID-19 data, data.who.int.
+The source data was imported and prepared for analysis in SQL Server. Queries were then developed to investigate relationships between cases, deaths, population, and vaccination progress.
 
-WHO currently states that, unless specifically indicated otherwise, datasets on data.who.int are provided under **Creative Commons Attribution 4.0 International (CC BY 4.0)** with additional WHO terms and conditions. Some datasets can contain material credited to other providers and those components may have separate terms.
+The SQL script demonstrates both exploratory analysis and the construction of reusable calculations for country-level and global reporting.
+
+## 🔎 Key Analytical Areas
+
+- Likelihood of death among reported cases
+- Percentage of population infected
+- Countries with the highest infection rates
+- Countries with the highest death counts
+- Global case and death statistics
+- Rolling vaccination totals
+- Population versus vaccination progress
+
+## 🗃️ Dataset Source & Attribution
+
+**Source:** World Health Organization (WHO) COVID-19 data, [data.who.int](https://data.who.int/).
+
+WHO states that, unless specifically indicated otherwise, datasets on data.who.int are provided under **Creative Commons Attribution 4.0 International (CC BY 4.0)** with additional WHO terms and conditions. Some datasets may contain material credited to other providers and those components may have separate terms.
 
 The source data was prepared and organized into the `CovidDeaths` and `CovidVaccination` SQL Server tables for this project. The SQL queries, transformations, documentation, and analysis in this repository are the portfolio author's work based on the source data.
 
 The portfolio does not claim WHO endorsement, sponsorship, or affiliation.
 
-Official WHO dataset terms: https://data.who.int/about/data/terms-and-conditions
+- [WHO dataset terms and conditions](https://data.who.int/about/data/terms-and-conditions)
+- [WHO COVID-19 data](https://data.who.int/dashboards/covid19/data)
 
-Official WHO COVID-19 data: https://data.who.int/dashboards/covid19/data
+## 📌 Reproducibility
 
-## Data Preparation
+Open the SQL script in **SQL Server Management Studio (SSMS)** or another SQL Server-compatible environment. Download the accompanying Excel datasets if you need to recreate the source tables.
 
-The source data was imported and prepared for analysis in SQL Server. The project then uses SQL queries to explore relationships between cases, deaths, population, and vaccination progress.
+> **Note:** GitHub may not preview the Excel files as interactive spreadsheets. Download them and open them in Microsoft Excel or another compatible application.
 
-> **Note:** Excel files may not open as an interactive spreadsheet directly in GitHub. Use the dataset links to download the files and open them in Microsoft Excel or another compatible application.
+## 🎯 Skills Demonstrated
+
+SQL Server · Data Cleaning · Data Transformation · Exploratory Analysis · JOINs · CTEs · Window Functions · Aggregation · Business Reporting
