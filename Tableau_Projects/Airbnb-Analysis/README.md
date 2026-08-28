@@ -42,11 +42,15 @@ These are descriptive observations from the dashboard and should not be interpre
 
 The underlying Airbnb dataset was sourced from **Kaggle**.
 
+**[View Samson Omar's Kaggle profile →](https://www.kaggle.com/samsonomar)**
+
 The working data model contains three related sheets:
 
 - **Listings** — property/listing attributes and host information
 - **Reviews** — guest review records
 - **Calendar** — listing availability, dates, and prices
+
+> **Note:** The Kaggle profile link above provides access to the author's Kaggle account. For direct dataset access, the exact Kaggle dataset URL should be added here once the specific dataset page is identified.
 
 ## 🧰 Tools & Skills
 
@@ -80,7 +84,7 @@ The working data model contains three related sheets:
 
 The Tableau workbook contains a local Excel connection from the original development environment. When opened on another computer, Tableau may require the Excel data source to be repointed to the appropriate source workbook.
 
-The repository contains the Tableau workbook and dashboard preview image. The original Excel source workbook is not included in this project folder, so full reproduction may require obtaining the source dataset separately.
+The repository contains the Tableau workbook and dashboard preview image. The original Excel source workbook is not included in this project folder, so full reproduction may require obtaining the source dataset separately from Kaggle.
 
 ## 📌 Attribution
 
