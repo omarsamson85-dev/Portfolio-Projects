@@ -43,7 +43,7 @@ The dashboard provides an interactive summary of the survey responses and allows
 
 ## 📋 Dataset & Attribution
 
-The project uses a **Data Professional Survey** dataset associated with **Alex The Analyst** and used as the source data for this analysis/project.
+The project uses the **Data Professional Survey** dataset associated with **Alex The Analyst** and used as the source data for this analysis/project.
 
 The Excel workbook included in this repository is provided as the source file used with the Power BI report. The analytical work, Power BI model, transformations, measures, dashboard design, and presentation in this repository represent the portfolio project built from the survey data.
 
@@ -144,7 +144,7 @@ The project demonstrates the ability to move from **raw survey data → transfor
 
 ## 📁 Project Files
 
-- [Power BI report](Power_%20Bi_%20Project..pbix)
+- [Power BI report](Data_Professional_Survey_Analysis.pbix)
 - [Source survey dataset](Power%20BI%20-%20Final%20Project.xlsx)
 - [Dashboard preview](POWER_BI_DASHBOARD.PNG)
 
