@@ -2,119 +2,124 @@
 
 ## 📊 Project Overview
 
-> **Template:** Replace the bracketed fields below with the details of the completed Power BI project once the dashboard files are uploaded.
+This Power BI project demonstrates an end-to-end business intelligence workflow, from source-data preparation through data modeling, DAX analysis, and interactive dashboard development.
 
-This Power BI project demonstrates the use of **Power BI, Power Query, data modeling, DAX, and interactive dashboard development** to transform raw data into clear, decision-ready business insights.
+The project is designed to demonstrate practical skills in **Power BI, Power Query, data modeling, DAX, KPI development, and visual storytelling**.
 
 ### Business Problem
 
-[Describe the business problem or decision this dashboard was designed to support.]
+The dashboard transforms the underlying business dataset into an interactive reporting solution that allows users to monitor performance, compare categories, identify trends, and explore the factors driving the reported results.
 
 ### Objectives
 
-- [Objective 1]
-- [Objective 2]
-- [Objective 3]
+- Prepare and transform the source data for analysis.
+- Build a structured Power BI data model.
+- Develop calculated measures using DAX.
+- Present important KPIs and trends through an interactive dashboard.
+- Make the analysis easy to filter, interpret, and use for business decision-making.
 
 ---
 
 ## 🖥️ Dashboard Preview
 
-![Power BI Dashboard](dashboard.png)
+![Power BI Dashboard](POWER_BI_DASHBOARD.PNG)
 
-> **Note:** Upload the final dashboard screenshot as `dashboard.png` into this folder.
+The dashboard provides an interactive visual layer over the prepared dataset, allowing users to examine overall performance and drill into relevant categories and trends.
 
 ---
 
 ## 🧰 Tools & Technologies
 
-- **Power BI Desktop**
+- **Power BI Desktop** — dashboard development and reporting
 - **Power Query** — data extraction, cleaning and transformation
 - **DAX** — calculated measures and analytical metrics
-- **Data Modeling** — relationships, dimensions and fact tables
-- **[Source: Excel / CSV / SQL Server / other]**
+- **Data Modeling** — relationships and analytical structure
+- **Microsoft Excel** — source dataset
 
 ---
 
 ## 🔄 Data Preparation
 
-The data preparation process included:
+The project follows an ETL-oriented workflow in Power BI. The source workbook is imported and prepared through Power Query before being used in the analytical model.
 
-- [Data import / extraction]
-- [Handling missing or invalid values]
-- [Data type standardization]
-- [Column transformation and creation]
-- [Removal of duplicates, if applicable]
-- [Additional Power Query transformations]
+Key preparation activities include:
+
+- Importing the Excel source data
+- Reviewing and standardizing data types
+- Cleaning fields required for analysis
+- Preparing columns for reporting and visualization
+- Structuring the data for relationships and measures
+- Validating the resulting dataset before dashboard development
 
 ---
 
 ## 🧩 Data Model
 
-[Describe the model used in the project — for example, a star schema with fact and dimension tables, or a simpler relational model.]
+The Power BI model provides the analytical foundation for the dashboard. The model is designed to support consistent filtering and aggregation across the report.
 
-### Key Tables
+### Model Components
 
-| Table | Purpose |
+| Component | Purpose |
 |---|---|
-| [Fact Table] | [Description] |
-| [Dimension Table] | [Description] |
-| [Dimension Table] | [Description] |
+| Source data | Provides the underlying business records used for analysis |
+| Analytical fields | Support segmentation, filtering and comparison |
+| Measures | Provide reusable business calculations and KPIs |
 
 ### Relationships
 
-[Briefly explain the important relationships and filtering direction used in the model.]
+Relationships in the Power BI model are used to ensure that slicers, filters and visual interactions return consistent analytical results.
 
 ---
 
 ## 📐 DAX & Measures
 
-Key analytical measures included:
+DAX is used to convert the prepared data into reusable analytical metrics and KPIs.
 
-- `[Measure Name]` — [Purpose]
-- `[Measure Name]` — [Purpose]
-- `[Measure Name]` — [Purpose]
-- `[Measure Name]` — [Purpose]
+The project demonstrates the use of measures for:
 
-Example categories of analysis:
+- Aggregated performance metrics
+- Counts and totals
+- Average values
+- Percentage-based analysis
+- Comparative analysis
+- KPI reporting
 
-- Total and average metrics
-- Growth and variance analysis
-- Year-over-year / month-over-month performance
-- Ratios and percentages
-- KPI calculations
+> **Note:** The `.pbix` file contains the complete DAX implementation and should be opened in Power BI Desktop to inspect the exact measures and model expressions.
 
 ---
 
 ## 📈 Dashboard Features
 
-The dashboard includes:
+The report demonstrates:
 
-- KPI cards
+- KPI cards for high-level performance monitoring
 - Interactive charts and visualizations
-- Slicers and filters
-- Trend analysis
-- Category / segment analysis
-- [Geographic analysis, if applicable]
-- [Drill-through / tooltip pages, if applicable]
+- Slicers and report filters
+- Category and segment analysis
+- Trend and comparative analysis
+- Cross-filtering between visuals
+- Business-focused dashboard layout
 
 ---
 
 ## 🔎 Key Insights
 
-Once the dashboard is finalized, summarize the main findings here:
+The dashboard is intended to help users quickly identify:
 
-1. **[Insight 1]** — [Brief explanation and business implication.]
-2. **[Insight 2]** — [Brief explanation and business implication.]
-3. **[Insight 3]** — [Brief explanation and business implication.]
-4. **[Insight 4]** — [Brief explanation and business implication.]
+1. **Overall performance** — understand the headline KPIs and the general state of the business.
+2. **Performance differences** — compare results across relevant categories and segments.
+3. **Trends and patterns** — identify changes over the reporting period.
+4. **Areas requiring attention** — use interactive filtering to investigate weaker or stronger areas of performance.
+
+> **Important:** Specific numerical findings should be interpreted directly from the dashboard and underlying dataset rather than inferred from the portfolio documentation.
 
 ---
 
 ## 📁 Project Files
 
-- [Power BI workbook](PowerBI-Project.pbix)
-- [Dashboard preview](dashboard.png)
+- [Power BI report](Power_%20Bi_%20Project..pbix)
+- [Source dataset](Power%20BI%20-%20Final%20Project.xlsx)
+- [Dashboard preview](POWER_BI_DASHBOARD.PNG)
 
 > **Note:** GitHub does not provide an interactive Power BI report experience. Download the `.pbix` file and open it in Power BI Desktop to explore the report, data model, Power Query transformations and DAX measures.
 
@@ -124,13 +129,16 @@ Once the dashboard is finalized, summarize the main findings here:
 
 To review the project:
 
-1. Download the `.pbix` file.
-2. Open it using Power BI Desktop.
-3. If prompted, update the data-source paths or credentials.
-4. Refresh the data if the source files are available.
-5. Explore the report pages, filters, model and measures.
+1. Download the Power BI `.pbix` file.
+2. Download the accompanying Excel source dataset if required.
+3. Open the `.pbix` file using Power BI Desktop.
+4. If Power BI prompts for a source path, update it to the location of the downloaded Excel workbook.
+5. Refresh the data if necessary.
+6. Explore the report pages, filters, data model and DAX measures.
 
-> **Data source note:** [Document the original data source, licensing/attribution requirements, and whether the source files are included in the repository.]
+### Data Source
+
+The project uses the Excel workbook included in this repository as its source dataset. The workbook is provided alongside the report to make the project easier to inspect and reproduce.
 
 ---
 
@@ -144,4 +152,6 @@ To review the project:
 - KPI development
 - Interactive data visualization
 - Business intelligence reporting
-- Insight generation and visual storytelling
+- Analytical thinking
+- Visual storytelling
+- Translating data into decision-ready information
