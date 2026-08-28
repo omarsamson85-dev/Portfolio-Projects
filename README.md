@@ -1,8 +1,8 @@
 # Data Analytics Portfolio
 
-**Samson Omar** · Data Analyst | SQL Server · Excel · Tableau
+**Samson Omar** · Data Analyst | SQL Server · Excel · Tableau · Power BI
 
-A practical portfolio of data analytics projects focused on **data cleaning, exploratory analysis, SQL, Excel reporting, and Tableau dashboard development**. Each project is documented with its business questions, methods, tools, and supporting files.
+A practical portfolio of data analytics projects focused on **data cleaning, exploratory analysis, SQL, Excel reporting, Tableau, Power BI, and dashboard development**. Each project is documented with its business questions, methods, tools, and supporting files.
 
 > **Portfolio goal:** turn raw data into clear, decision-ready insights through reproducible analysis and effective visual communication.
 
@@ -16,6 +16,7 @@ A practical portfolio of data analytics projects focused on **data cleaning, exp
 | **[National Housing Data Cleaning](SQL_Projects/Nashville_Housing/README.md)** | Data cleaning, standardization, missing-value handling, deduplication and transformation | SQL Server |
 | **[Bike Buyers Analysis](Excel_Bike_Buyers/README.md)** | Data preparation, formulas, pivot tables, visualization and dashboard development | Excel |
 | **[Airbnb Data Analysis — Tableau](Tableau_Projects/Airbnb-Analysis/README.md)** | Pricing, bedroom distribution, ZIP-code analysis and revenue trends | Tableau · Excel |
+| **[Power BI Dashboard — Project](PowerBI_Projects/PowerBI-Project/README.md)** | Data transformation, data modeling, DAX, KPIs, interactive reporting and business insights | Power BI · Power Query · DAX |
 
 ---
 
@@ -32,6 +33,12 @@ A practical portfolio of data analytics projects focused on **data cleaning, exp
 ![Airbnb Tableau Dashboard](Tableau_Projects/Airbnb-Analysis/Tableu_AirBnB_Dashboard.PNG)
 
 [Open the Airbnb Tableau project →](Tableau_Projects/Airbnb-Analysis/README.md)
+
+### Power BI Dashboard
+
+![Power BI Dashboard](PowerBI_Projects/PowerBI-Project/POWER_BI_DASHBOARD.PNG)
+
+[Open the Power BI project →](PowerBI_Projects/PowerBI-Project/README.md)
 
 ---
 
@@ -67,6 +74,15 @@ A practical portfolio of data analytics projects focused on **data cleaning, exp
 - Time-series analysis
 - Dashboard composition and visual storytelling
 
+### Power BI
+- Power BI dashboard development
+- Power Query / ETL
+- Data cleaning and transformation
+- Data modeling
+- DAX measures
+- KPI development
+- Interactive reporting and visual storytelling
+
 ---
 
 ## 📁 Repository Structure
@@ -89,6 +105,13 @@ Portfolio-Projects/
 │       ├── README.md
 │       ├── AirBnB Full Project.twb
 │       └── Tableu_AirBnB_Dashboard.PNG
+│
+├── PowerBI_Projects/
+│   └── PowerBI-Project/
+│       ├── README.md
+│       ├── Power_ Bi_ Project..pbix
+│       ├── Power BI - Final Project.xlsx
+│       └── POWER_BI_DASHBOARD.PNG
 │
 └── README.md
 ```
@@ -138,13 +161,25 @@ An interactive Tableau analysis examining pricing, bedroom distribution, ZIP-cod
 
 **Important:** GitHub does not render Tableau `.twb` files as interactive dashboards. The repository provides the workbook for download and the dashboard PNG for browser viewing.
 
+### 5. Power BI Dashboard — Project
+
+An end-to-end Power BI business intelligence project demonstrating source-data preparation, Power Query transformations, data modeling, DAX measures, KPI development, interactive visualizations, and business-focused reporting.
+
+- [Project overview](PowerBI_Projects/PowerBI-Project/README.md)
+- [Power BI report](PowerBI_Projects/PowerBI-Project/Power_%20Bi_%20Project..pbix)
+- [Source dataset](PowerBI_Projects/PowerBI-Project/Power%20BI%20-%20Final%20Project.xlsx)
+- [Dashboard preview](PowerBI_Projects/PowerBI-Project/POWER_BI_DASHBOARD.PNG)
+
+**Important:** GitHub does not render `.pbix` files as interactive Power BI dashboards. The repository provides the Power BI file for download, the source workbook for reproducibility, and a dashboard image for browser viewing.
+
 ---
 
 ## 📌 Reproducibility Notes
 
 - **SQL projects:** Open the `.sql` files in SQL Server Management Studio or another SQL Server-compatible environment. The project READMEs document the expected tables and datasets.
 - **Excel project:** Download the workbook and open it in Microsoft Excel or another compatible spreadsheet application.
-- **Tableau project:** Open the `.twb` file in Tableau Desktop. The workbook was originally created with a local Excel connection, so Tableau may require the data source to be repointed to the appropriate source workbook.
+- **Tableau project:** Open the `.twb` file in Tableau Desktop. The workbook may require the data source to be repointed to the appropriate source workbook.
+- **Power BI project:** Download the `.pbix` file and the accompanying Excel source workbook. Open the report in Power BI Desktop and, if prompted, update the source path to the downloaded workbook before refreshing.
 
 ---
 
@@ -168,13 +203,17 @@ The `bike_buyers` worksheet contains the source dataset used for the Excel analy
 
 The Airbnb dataset was obtained from Kaggle. The portfolio does not claim ownership of the underlying third-party data. Users redistributing the source data should verify the applicable Kaggle license and attribution requirements.
 
+### Power BI
+
+The Power BI project uses the Excel workbook included in the project folder as its source dataset. The portfolio does not claim ownership of third-party source data beyond the work performed in preparing, modeling, analyzing, and visualizing it. Verify the applicable license and attribution requirements before redistributing the underlying source data.
+
 ---
 
 ## 👤 About
 
 **Samson Omar**
 
-Data analytics portfolio focused on practical SQL, Excel, data preparation, exploratory analysis, and dashboard development.
+Data analytics portfolio focused on practical SQL, Excel, data preparation, exploratory analysis, Tableau, Power BI, and dashboard development.
 
 - GitHub: [@omarsamson85-dev](https://github.com/omarsamson85-dev)
 
@@ -185,8 +224,8 @@ Data analytics portfolio focused on practical SQL, Excel, data preparation, expl
 If you are a recruiter or hiring manager, a useful path is:
 
 1. Start with the **dashboard previews** above.
-2. Open the relevant **project README** for the business questions and findings.
-3. Inspect the SQL scripts or Excel/Tableau project files to see the implementation.
+2. Open the relevant **project README** for the business questions, methodology, and findings.
+3. Inspect the SQL scripts or Excel/Tableau/Power BI project files to see the implementation.
 4. Review the reproducibility notes where applicable.
 
 The emphasis throughout the portfolio is on **clean analysis, transparent methodology, and communicating results clearly**.
