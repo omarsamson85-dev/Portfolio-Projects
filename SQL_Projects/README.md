@@ -1,10 +1,10 @@
 # SQL Projects
 
-This folder contains SQL projects demonstrating data cleaning, data transformation, exploratory data analysis, and analytical querying using **Microsoft SQL Server**.
+This folder contains SQL projects demonstrating data cleaning, transformation, exploratory analysis and analytical querying using **Microsoft SQL Server**.
 
 ## 1. COVID-19 Data Analysis
 
-This project analyzes COVID-19 cases, deaths, population, and vaccination data.
+This project analyzes COVID-19 cases, deaths, population and vaccination data.
 
 ### Analysis Includes
 
@@ -18,10 +18,8 @@ This project analyzes COVID-19 cases, deaths, population, and vaccination data.
 
 ### SQL Techniques
 
-- SELECT
-- WHERE
-- GROUP BY
-- ORDER BY
+- SELECT / WHERE
+- GROUP BY / ORDER BY
 - Aggregate functions
 - JOINs
 - Window functions
