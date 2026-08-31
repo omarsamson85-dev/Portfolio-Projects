@@ -6,22 +6,7 @@ A practical portfolio demonstrating how I turn raw and messy datasets into **cle
 
 The projects cover SQL data cleaning and analysis, Excel reporting, Tableau visualization, Power BI modeling/DAX, and a Python/Streamlit interactive dashboard.
 
-## 🚀 Live Dashboard
-
-**[Open the Seattle Airbnb Market Dashboard →](https://seattle-airbnb-market-dashboard.streamlit.app/)**  
-[Streamlit deployment platform →](https://share.streamlit.io/?utm_source)
-
-The live dashboard is the interactive web version of the Airbnb analysis. The application uses the same public Kaggle dataset documented in the Airbnb project README.
-
-## 👋 What I Bring
-
-- **SQL Server:** joins, CTEs, window functions, aggregations, data cleaning and transformation
-- **Power BI:** Power Query, data modeling, DAX, KPIs and interactive reporting
-- **Tableau:** calculated measures, geographic analysis, time-series analysis and dashboard design
-- **Excel:** formulas, pivot tables, data preparation and dashboard development
-- **Python:** pandas, Plotly and Streamlit for interactive analytical applications
-
-## ⭐ Featured Projects
+## 📊 Featured Work
 
 | Project | Business focus | Stack |
 |---|---|---|
@@ -30,6 +15,16 @@ The live dashboard is the interactive web version of the Airbnb analysis. The ap
 | [COVID-19 Data Analysis](SQL_Projects/COVID-19/README.md) | Cases, deaths, infection rates and vaccination progress | SQL Server |
 | [National Housing Data Cleaning](SQL_Projects/Nashville_Housing/README.md) | Data quality, standardization, missing values and duplicates | SQL Server · Excel |
 | [Bike Buyers Analysis](Excel_Bike_Buyers/README.md) | Customer characteristics, purchasing behavior and dashboard reporting | Excel |
+
+> **Streamlit dashboard:** The live app is temporarily offline while its Kaggle data-loading workflow is being repaired. The application code remains in `app.py` and will be relisted here once it has been tested end-to-end.
+
+## 👋 What I Bring
+
+- **SQL Server:** joins, CTEs, window functions, aggregations, data cleaning and transformation
+- **Power BI:** Power Query, data modeling, DAX, KPIs and interactive reporting
+- **Tableau:** calculated measures, geographic analysis, time-series analysis and dashboard design
+- **Excel:** formulas, pivot tables, data preparation and dashboard development
+- **Python:** pandas, Plotly and Streamlit for interactive analytical applications
 
 ## 📊 Dashboard Previews
 
@@ -46,7 +41,7 @@ The live dashboard is the interactive web version of the Airbnb analysis. The ap
 
 For the fastest overview:
 
-1. Start with the **[live Airbnb dashboard](https://seattle-airbnb-market-dashboard.streamlit.app/)**.
+1. Start with the dashboard previews above.
 2. Open a project README to see the **business problem, analytical questions, methodology, findings, and limitations**.
 3. Inspect the SQL, Excel, Tableau, or Power BI files for implementation evidence.
 4. Use the reproducibility notes to recreate the work where supported.
@@ -121,7 +116,7 @@ The Power BI project uses the **Data Professional Survey** dataset associated wi
 - **Excel:** Download the workbook and open it in Microsoft Excel or a compatible spreadsheet application.
 - **Tableau:** Open the `.twb` file in Tableau Desktop. The workbook may require the source Excel connection to be repointed on another computer.
 - **Power BI:** Open the `.pbix` file in Power BI Desktop. If prompted, update the source path to the included Excel workbook before refreshing.
-- **Streamlit:** Install `requirements.txt` and run `streamlit run app.py`. The application uses the same public Airbnb Kaggle dataset referenced by the Tableau project.
+- **Streamlit:** The application code is retained in `app.py`. The public deployment is intentionally not advertised until its data-loading workflow has been repaired and tested end-to-end.
 
 ## ⚠️ Important Limitations
 
@@ -129,6 +124,7 @@ The Power BI project uses the **Data Professional Survey** dataset associated wi
 - Third-party datasets may have licensing, provenance, coverage, and data-quality limitations.
 - GitHub does not render `.twb` or `.pbix` files as interactive dashboards; static previews are provided for browser-based review.
 - The Tableau workbook may require its local source connection to be repointed when opened on another machine.
+- The Streamlit deployment is temporarily offline while its Kaggle data-loading workflow is being repaired.
 
 ## 👤 About
 
@@ -138,4 +134,4 @@ The Power BI project uses the **Data Professional Survey** dataset associated wi
 
 ## ⭐ Reviewer's Shortcut
 
-If you are a recruiter or hiring manager, start with the **[live Airbnb dashboard](https://seattle-airbnb-market-dashboard.streamlit.app/)**, **[Power BI project](PowerBI_Projects/PowerBI-Project/README.md)** and **[COVID-19 SQL analysis](SQL_Projects/COVID-19/README.md)**. The remaining projects provide additional evidence of data cleaning, Excel reporting and analytical workflow discipline.
+If you are a recruiter or hiring manager, start with the **[Power BI project](PowerBI_Projects/PowerBI-Project/README.md)**, **[Airbnb Tableau analysis](Tableau_Projects/Airbnb-Analysis/README.md)** and **[COVID-19 SQL analysis](SQL_Projects/COVID-19/README.md)**. The remaining projects provide additional evidence of data cleaning, Excel reporting and analytical workflow discipline.
