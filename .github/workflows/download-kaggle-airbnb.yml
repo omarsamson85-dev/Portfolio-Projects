@@ -1,10 +1,7 @@
-name: Download Public Airbnb Dataset from Kaggle
+name: Validate Public Airbnb Dataset
 
 on:
   workflow_dispatch:
-  schedule:
-    # Refresh the dataset artifact once a month.
-    - cron: '0 3 1 * *'
   push:
     paths:
       - '.github/workflows/download-kaggle-airbnb.yml'
@@ -13,7 +10,7 @@ permissions:
   contents: read
 
 jobs:
-  download-dataset:
+  validate-dataset:
     runs-on: ubuntu-latest
 
     steps:
@@ -29,34 +26,15 @@ jobs:
         run: |
           python - <<'PY'
           from pathlib import Path
-          import shutil
           import kagglehub
 
           source = Path(kagglehub.dataset_download('alexanderfreberg/airbnb-listings-2016-dataset'))
-          target = Path('data/airbnb')
-          target.mkdir(parents=True, exist_ok=True)
-
-          for item in source.iterdir():
-              destination = target / item.name
-              if item.is_dir():
-                  shutil.copytree(item, destination, dirs_exist_ok=True)
-              else:
-                  shutil.copy2(item, destination)
-
-          print('Downloaded dataset files:')
-          for item in target.rglob('*'):
+          print(f'Dataset path: {source}')
+          print('Downloaded files:')
+          for item in source.rglob('*'):
               if item.is_file():
-                  print(item)
+                  print(item.relative_to(source))
           PY
 
-      - name: Package dataset for download
-        run: |
-          cd data/airbnb
-          zip -r ../../airbnb-listings-2016-dataset.zip .
-
-      - name: Upload dataset as workflow artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: airbnb-listings-2016-dataset
-          path: airbnb-listings-2016-dataset.zip
-          retention-days: 30
+      - name: Complete validation
+        run: echo "Public Kaggle dataset download completed successfully."
