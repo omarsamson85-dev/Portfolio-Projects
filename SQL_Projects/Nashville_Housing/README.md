@@ -1,71 +1,69 @@
 # National Housing Data Cleaning — SQL Server
 
-## 📊 Project Overview
+## 📌 Business Problem
 
-This project demonstrates how **Microsoft SQL Server** can be used to clean, standardize, and prepare housing data for analysis.
+Raw housing datasets often contain inconsistent dates, incomplete addresses, duplicated records and non-standard categorical values. This project demonstrates a repeatable SQL Server workflow for converting the retained housing workbook into a cleaner analytical table.
 
-The source workbook is **`Nashville Housing Data for Data Cleaning.xlsx`**. After import into SQL Server, the working table used in the cleaning queries is `NationalHousing`.
+## 🎯 Data-Quality Questions
 
-## 🎯 Data Cleaning Objectives
+- Which fields require standardization before analysis?
+- How can missing property addresses be populated from related records?
+- How can combined address fields be split into analytical columns?
+- Which records are duplicates?
+- Which categorical values need normalization?
 
-- Standardize sale dates
-- Populate missing property addresses
-- Split property addresses into separate fields
-- Split owner addresses into separate fields
-- Standardize `Sold As Vacant` values
-- Handle selected missing values
-- Identify and remove duplicate records
-- Remove redundant columns
+## 🔧 Approach
 
-## 🧰 SQL Techniques Demonstrated
+The working SQL table is `NationalHousing`. The cleaning workflow covers:
+
+1. Standardizing sale dates.
+2. Populating missing property addresses.
+3. Splitting property and owner addresses into separate fields.
+4. Standardizing `Sold As Vacant` values.
+5. Handling selected missing values.
+6. Detecting duplicates with `ROW_NUMBER()`.
+7. Removing duplicate records.
+8. Removing redundant columns.
+
+## 🧰 SQL Techniques
 
 - SELECT and filtering
-- UPDATE
-- ALTER TABLE
+- UPDATE and ALTER TABLE
 - JOINs
 - CASE statements
 - COALESCE
 - String functions
-- Common Table Expressions (CTEs)
+- CTEs
 - ROW_NUMBER()
 - Duplicate detection and removal
 - Data transformation and standardization
 
-## 🗃️ Working Table
+## 📈 Data-Quality Evidence
 
-`NationalHousing`
+The SQL script contains the transformations used to improve the retained source table. Because the repository does not contain a separate before/after profiling report, this README intentionally avoids inventing row counts or quality percentages.
+
+For a technical review, inspect the duplicate-detection query, address-population JOIN, categorical standardization and final column-removal steps.
+
+## 🗃️ Source & Attribution
+
+The Excel workbook is a third-party source dataset used as the starting point for this data-cleaning project. The exact original provider/license for the retained copy has not been established from the repository records.
+
+This repository does not claim ownership of the underlying source dataset. The SQL cleaning queries, transformations, documentation and analysis presented here are the portfolio author's work.
+
+Anyone redistributing the source workbook should verify the original provider and applicable licensing/attribution requirements first.
 
 ## 📁 Project Files
 
 | File | Purpose |
 |---|---|
-| [Source Housing Dataset](Nashville%20Housing%20Data%20for%20Data%20Cleaning.xlsx) | Original workbook used as the source |
-| [National Housing Data Cleaning SQL](../Nashville_Housing_Data_Cleaning.sql) | SQL Server cleaning and transformation queries |
+| [Source housing dataset](Nashville%20Housing%20Data%20for%20Data%20Cleaning.xlsx) | Original workbook used as the source |
+| [SQL cleaning script](../Nashville_Housing_Data_Cleaning.sql) | SQL Server cleaning and transformation queries |
 
-## 🔄 Workflow
+## 🔄 Reproducibility
 
-1. Import the source workbook into SQL Server.
-2. Inspect the structure and data-quality issues.
-3. Standardize and populate required fields.
-4. Split combined address fields into usable columns.
-5. Standardize categorical values.
-6. Identify and remove duplicate records.
-7. Remove columns that are no longer required.
-8. Produce a cleaner dataset suitable for downstream analysis.
+Open the SQL script in **SQL Server Management Studio (SSMS)** or another SQL Server-compatible environment. Import the source workbook into SQL Server and create the expected `NationalHousing` table before running the workflow.
 
-## 📌 Source & Attribution
-
-The Excel workbook is a third-party source dataset used as the starting point for this data-cleaning project. This repository does not claim ownership of the underlying source dataset.
-
-The SQL cleaning queries, transformations, documentation, and analysis presented here are the portfolio author's work.
-
-Because the exact original provider/license for the retained source workbook has not been established from the repository records, anyone redistributing the source workbook should verify the original provider's licensing and attribution requirements first.
-
-## 📌 Reproducibility
-
-Open the SQL script in **SQL Server Management Studio (SSMS)** or another SQL Server-compatible environment. Download the source workbook and import it into SQL Server before running the cleaning workflow.
-
-> **Note:** GitHub may not preview the Excel file as an interactive spreadsheet. Download it and open it with Microsoft Excel or another compatible application.
+> GitHub may not preview the Excel file as an interactive spreadsheet. Download it and open it with Microsoft Excel or another compatible application.
 
 ## 🎯 Skills Demonstrated
 
