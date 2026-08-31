@@ -6,6 +6,13 @@ A practical portfolio demonstrating how I turn raw and messy datasets into **cle
 
 The projects cover SQL data cleaning and analysis, Excel reporting, Tableau visualization, Power BI modeling/DAX, and a Python/Streamlit interactive dashboard.
 
+## 🚀 Live Dashboard
+
+**[Open the Seattle Airbnb Market Dashboard →](https://seattle-airbnb-market-dashboard.streamlit.app/)**  
+[Streamlit deployment platform →](https://share.streamlit.io/?utm_source)
+
+The live dashboard is the interactive web version of the Airbnb analysis. The application uses the same public Kaggle dataset documented in the Airbnb project README.
+
 ## 👋 What I Bring
 
 - **SQL Server:** joins, CTEs, window functions, aggregations, data cleaning and transformation
@@ -39,7 +46,7 @@ The projects cover SQL data cleaning and analysis, Excel reporting, Tableau visu
 
 For the fastest overview:
 
-1. Start with the dashboard previews above.
+1. Start with the **[live Airbnb dashboard](https://seattle-airbnb-market-dashboard.streamlit.app/)**.
 2. Open a project README to see the **business problem, analytical questions, methodology, findings, and limitations**.
 3. Inspect the SQL, Excel, Tableau, or Power BI files for implementation evidence.
 4. Use the reproducibility notes to recreate the work where supported.
@@ -131,4 +138,4 @@ The Power BI project uses the **Data Professional Survey** dataset associated wi
 
 ## ⭐ Reviewer's Shortcut
 
-If you are a recruiter or hiring manager, start with **Power BI** for end-to-end BI work, **Airbnb** for interactive visualization, and **COVID-19** for SQL analysis. The remaining projects provide additional evidence of data cleaning, Excel reporting and analytical workflow discipline.
+If you are a recruiter or hiring manager, start with the **[live Airbnb dashboard](https://seattle-airbnb-market-dashboard.streamlit.app/)**, **[Power BI project](PowerBI_Projects/PowerBI-Project/README.md)** and **[COVID-19 SQL analysis](SQL_Projects/COVID-19/README.md)**. The remaining projects provide additional evidence of data cleaning, Excel reporting and analytical workflow discipline.
