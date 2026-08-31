@@ -2,17 +2,13 @@
 
 An interactive analysis of Airbnb listing, review and calendar data focused on **pricing, property characteristics, geographic variation, availability and revenue trends**.
 
-## 🚀 Live Interactive Dashboard
-
-**[Open the live Streamlit dashboard →](https://seattle-airbnb-market-dashboard.streamlit.app/)**
-
-The dashboard provides a browser-based experience for visitors who do not have Tableau Desktop. It uses the same public Kaggle dataset documented below as the canonical project source.
-
 ## 📊 Dashboard Preview
 
 ![Airbnb Tableau Dashboard](Tableu_AirBnB_Dashboard.PNG)
 
 The image is a static export of the completed Tableau dashboard for quick viewing on GitHub. The Tableau workbook is included for further inspection in Tableau Desktop.
+
+> **Live app note:** A Streamlit deployment is maintained separately from the repository. The source code is included in `app.py`, but the README does not present an unverified deployment URL as a guaranteed live service.
 
 ## 🎯 Business Questions
 
@@ -76,7 +72,7 @@ The working data model contains three related tables/sheets:
 - Time-series analysis
 - Comparative analysis
 - Dashboard composition and visual storytelling
-- Interactive web dashboard deployment
+- Interactive web dashboard development
 
 ## 📁 Project Files
 
@@ -97,7 +93,7 @@ The repository contains the Tableau workbook and dashboard preview image. The or
 
 ### Streamlit
 
-The Streamlit dashboard uses the same public Kaggle dataset referenced above. Install the repository requirements and run:
+The Streamlit source uses the same public Kaggle dataset referenced above. Install the repository requirements and run:
 
 ```bash
 streamlit run app.py
