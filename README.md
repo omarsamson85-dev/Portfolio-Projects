@@ -4,19 +4,17 @@
 
 A practical portfolio demonstrating how I turn raw and messy datasets into **clean analysis, decision-ready metrics, and clear dashboards**.
 
-The projects cover SQL data cleaning and analysis, Excel reporting, Tableau visualization, Power BI modeling/DAX, and a Python/Streamlit interactive dashboard.
+The projects cover SQL data cleaning and analysis, Excel reporting, Tableau visualization, Power BI modeling/DAX, and Python data analysis.
 
 ## 📊 Featured Work
 
 | Project | Business focus | Stack |
 |---|---|---|
 | [Data Professional Survey — Power BI](PowerBI_Projects/PowerBI-Project/README.md) | Workforce composition, compensation, preferences and satisfaction | Power BI · Power Query · DAX · Excel |
-| [Airbnb Market Analysis — Tableau](Tableau_Projects/Airbnb-Analysis/README.md) | Pricing, property characteristics, geography and availability | Tableau · Streamlit · Kaggle |
+| [Airbnb Market Analysis — Tableau](Tableau_Projects/Airbnb-Analysis/README.md) | Pricing, property characteristics, geography and availability | Tableau · Kaggle |
 | [COVID-19 Data Analysis](SQL_Projects/COVID-19/README.md) | Cases, deaths, infection rates and vaccination progress | SQL Server |
 | [National Housing Data Cleaning](SQL_Projects/Nashville_Housing/README.md) | Data quality, standardization, missing values and duplicates | SQL Server · Excel |
 | [Bike Buyers Analysis](Excel_Bike_Buyers/README.md) | Customer characteristics, purchasing behavior and dashboard reporting | Excel |
-
-> **Streamlit dashboard:** The live app is temporarily offline while its Kaggle data-loading workflow is being repaired. The application code remains in `app.py` and will be relisted here once it has been tested end-to-end.
 
 ## 👋 What I Bring
 
@@ -24,7 +22,7 @@ The projects cover SQL data cleaning and analysis, Excel reporting, Tableau visu
 - **Power BI:** Power Query, data modeling, DAX, KPIs and interactive reporting
 - **Tableau:** calculated measures, geographic analysis, time-series analysis and dashboard design
 - **Excel:** formulas, pivot tables, data preparation and dashboard development
-- **Python:** pandas, Plotly and Streamlit for interactive analytical applications
+- **Python:** data analysis and visualization with pandas and Plotly
 
 ## 📊 Dashboard Previews
 
@@ -58,7 +56,7 @@ For the fastest overview:
 | Power BI | Data Professional Survey dashboard and `.pbix` report |
 | DAX | Power BI measures and KPIs |
 | Power Query | Power BI data preparation workflow |
-| Python | Streamlit dashboard in `app.py` |
+| Python | Data analysis and visualization |
 | Data visualization | Excel, Tableau, Power BI and Plotly |
 
 ## 📁 Repository Structure
@@ -85,8 +83,6 @@ Portfolio-Projects/
 │       ├── Data_Professional_Survey_Analysis.pbix
 │       ├── Power BI - Final Project.xlsx
 │       └── POWER_BI_DASHBOARD.PNG
-├── app.py
-└── requirements.txt
 ```
 
 ## 📚 Data Sources & Attribution
@@ -116,7 +112,6 @@ The Power BI project uses the **Data Professional Survey** dataset associated wi
 - **Excel:** Download the workbook and open it in Microsoft Excel or a compatible spreadsheet application.
 - **Tableau:** Open the `.twb` file in Tableau Desktop. The workbook may require the source Excel connection to be repointed on another computer.
 - **Power BI:** Open the `.pbix` file in Power BI Desktop. If prompted, update the source path to the included Excel workbook before refreshing.
-- **Streamlit:** The application code is retained in `app.py`. The public deployment is intentionally not advertised until its data-loading workflow has been repaired and tested end-to-end.
 
 ## ⚠️ Important Limitations
 
@@ -124,7 +119,6 @@ The Power BI project uses the **Data Professional Survey** dataset associated wi
 - Third-party datasets may have licensing, provenance, coverage, and data-quality limitations.
 - GitHub does not render `.twb` or `.pbix` files as interactive dashboards; static previews are provided for browser-based review.
 - The Tableau workbook may require its local source connection to be repointed when opened on another machine.
-- The Streamlit deployment is temporarily offline while its Kaggle data-loading workflow is being repaired.
 
 ## 👤 About
 
