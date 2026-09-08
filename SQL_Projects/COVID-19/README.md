@@ -1,10 +1,10 @@
-# COVID-19 Data Analysis — SQL Server
+# COVID-19 Data Analysis SQL Server
 
-## 📌 Business Problem
+## Business Problem
 
 COVID-19 reporting produces large volumes of cases, deaths, population and vaccination data. This project uses SQL Server to turn those source tables into comparable country-level and global metrics.
 
-## 🎯 Analytical Questions
+## Analytical Questions
 
 - What is the likelihood of death among reported cases?
 - What proportion of a population was reported as infected?
@@ -12,7 +12,7 @@ COVID-19 reporting produces large volumes of cases, deaths, population and vacci
 - How did global cases and deaths change over time?
 - How did vaccination progress compare with population size?
 
-## 🔧 Approach
+## Approach
 
 The analysis combines the `CovidDeaths` and `CovidVaccination` datasets and demonstrates:
 
@@ -24,7 +24,7 @@ The analysis combines the `CovidDeaths` and `CovidVaccination` datasets and demo
 - Calculated metrics
 - Country-level and global summaries
 
-## 🔎 Key Analytical Areas
+## Key Analytical Areas
 
 - Total cases and deaths
 - Death percentage
@@ -34,13 +34,13 @@ The analysis combines the `CovidDeaths` and `CovidVaccination` datasets and demo
 - Rolling vaccination totals
 - Population versus vaccination progress
 
-## 📈 Findings
+## Findings
 
 The repository contains the SQL calculations and source tables needed to reproduce the analysis. Numerical findings should be read from the query outputs rather than copied into this README, because the workbook values represent the retained project snapshot and may differ from current WHO reporting.
 
 When reviewing the project, focus on whether the SQL correctly defines the denominators, handles nulls, joins the datasets at the appropriate grain, and uses window functions appropriately for cumulative vaccination metrics.
 
-## 🗃️ Dataset Source & Attribution
+## Dataset Source and Attribution
 
 **Source:** World Health Organization (WHO) COVID-19 data, [data.who.int](https://data.who.int/).
 
@@ -51,7 +51,7 @@ WHO states that, unless specifically indicated otherwise, datasets on data.who.i
 
 The portfolio does not claim WHO endorsement, sponsorship or affiliation.
 
-## 📁 Project Files
+## Project Files
 
 | File | Purpose |
 |---|---|
@@ -59,12 +59,12 @@ The portfolio does not claim WHO endorsement, sponsorship or affiliation.
 | [CovidDeaths dataset](CovidDeaths.xlsx) | Cases, deaths and population data |
 | [CovidVaccination dataset](CovidVacination.xlsx) | Vaccination data |
 
-## 🔄 Reproducibility
+## Reproducibility
 
 Open the SQL script in **SQL Server Management Studio (SSMS)** or another SQL Server-compatible environment. Import the accompanying Excel datasets into the expected SQL Server tables before executing the queries.
 
 > GitHub may not preview the Excel files as interactive spreadsheets. Download them and open them in Microsoft Excel or another compatible application.
 
-## 🎯 Skills Demonstrated
+## Skills Demonstrated
 
 SQL Server · Data Cleaning · Data Transformation · JOINs · CTEs · Window Functions · Aggregation · Rolling Metrics · Exploratory Analysis · Business Reporting
