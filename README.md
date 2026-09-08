@@ -6,7 +6,7 @@ A practical portfolio demonstrating how I turn raw and messy datasets into **cle
 
 The projects cover SQL data cleaning and analysis, Excel reporting, Tableau visualization, Power BI modeling/DAX, and Python data analysis.
 
-## 📊 Featured Work
+## Featured Work
 
 | Project | Business focus | Stack |
 |---|---|---|
@@ -16,7 +16,7 @@ The projects cover SQL data cleaning and analysis, Excel reporting, Tableau visu
 | [National Housing Data Cleaning](SQL_Projects/Nashville_Housing/README.md) | Data quality, standardization, missing values and duplicates | SQL Server · Excel |
 | [Bike Buyers Analysis](Excel_Bike_Buyers/README.md) | Customer characteristics, purchasing behavior and dashboard reporting | Excel |
 
-## 👋 What I Bring
+## What I Bring
 
 - **SQL Server:** joins, CTEs, window functions, aggregations, data cleaning and transformation
 - **Power BI:** Power Query, data modeling, DAX, KPIs and interactive reporting
@@ -24,7 +24,7 @@ The projects cover SQL data cleaning and analysis, Excel reporting, Tableau visu
 - **Excel:** formulas, pivot tables, data preparation and dashboard development
 - **Python:** data analysis and visualization with pandas and Plotly
 
-## 📊 Dashboard Previews
+## Dashboard Previews
 
 ### Bike Buyers — Excel
 ![Bike Buyers Dashboard](Excel_Bike_Buyers/EXCEL_DASHBOARD.PNG)
@@ -35,7 +35,7 @@ The projects cover SQL data cleaning and analysis, Excel reporting, Tableau visu
 ### Data Professional Survey — Power BI
 ![Data Professional Survey Dashboard](PowerBI_Projects/PowerBI-Project/POWER_BI_DASHBOARD.PNG)
 
-## 🧭 How to Review This Portfolio
+## How to Review This Portfolio
 
 For the fastest overview:
 
@@ -44,7 +44,7 @@ For the fastest overview:
 3. Inspect the SQL, Excel, Tableau, or Power BI files for implementation evidence.
 4. Use the reproducibility notes to recreate the work where supported.
 
-## 🧰 Skills & Evidence
+## Skills and Evidence
 
 | Skill | Evidence in this repository |
 |---|---|
@@ -59,7 +59,7 @@ For the fastest overview:
 | Python | Data analysis and visualization |
 | Data visualization | Excel, Tableau, Power BI and Plotly |
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 Portfolio-Projects/
@@ -85,7 +85,7 @@ Portfolio-Projects/
 │       └── POWER_BI_DASHBOARD.PNG
 ```
 
-## 📚 Data Sources & Attribution
+## Data Sources and Attribution
 
 ### COVID-19
 The COVID-19 project uses WHO COVID-19 data prepared for SQL Server analysis. The portfolio does not claim WHO endorsement, affiliation, or sponsorship.
@@ -106,26 +106,26 @@ The Airbnb analysis uses the public Kaggle dataset **alexanderfreberg/airbnb-lis
 ### Power BI
 The Power BI project uses the **Data Professional Survey** dataset associated with Alex The Analyst. The included Excel workbook is the source file used by the report. The portfolio does not claim ownership of the original survey responses.
 
-## 🔄 Reproducibility Notes
+## Reproducibility Notes
 
 - **SQL:** Open the `.sql` files in SQL Server Management Studio or another SQL Server-compatible environment. The project READMEs identify the accompanying datasets.
 - **Excel:** Download the workbook and open it in Microsoft Excel or a compatible spreadsheet application.
 - **Tableau:** Open the `.twb` file in Tableau Desktop. The workbook may require the source Excel connection to be repointed on another computer.
 - **Power BI:** Open the `.pbix` file in Power BI Desktop. If prompted, update the source path to the included Excel workbook before refreshing.
 
-## ⚠️ Important Limitations
+## Important Limitations
 
 - Dashboard observations are descriptive and should not automatically be interpreted as causal relationships.
 - Third-party datasets may have licensing, provenance, coverage, and data-quality limitations.
 - GitHub does not render `.twb` or `.pbix` files as interactive dashboards; static previews are provided for browser-based review.
 - The Tableau workbook may require its local source connection to be repointed when opened on another machine.
 
-## 👤 About
+## About
 
 **Samson Omar** — Data analytics portfolio focused on practical SQL, Excel, Tableau, Power BI, Python, data preparation, exploratory analysis and dashboard development.
 
 - GitHub: [@omarsamson85-dev](https://github.com/omarsamson85-dev)
 
-## ⭐ Reviewer's Shortcut
+## Reviewers Shortcut
 
 If you are a recruiter or hiring manager, start with the **[Power BI project](PowerBI_Projects/PowerBI-Project/README.md)**, **[Airbnb Tableau analysis](Tableau_Projects/Airbnb-Analysis/README.md)** and **[COVID-19 SQL analysis](SQL_Projects/COVID-19/README.md)**. The remaining projects provide additional evidence of data cleaning, Excel reporting and analytical workflow discipline.
