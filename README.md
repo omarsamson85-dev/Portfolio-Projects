@@ -29,7 +29,7 @@ The projects cover SQL data cleaning and analysis, Excel reporting, Tableau visu
 ## 📊 Dashboard Previews
 
 ### Bike Buyers — Excel
-![Bike Buyers Dashboard](Excel_Bike_Buyers/dashboard.png)
+![Bike Buyers Dashboard](Excel_Bike_Buyers/EXCEL_DASHBOARD.PNG)
 
 ### Airbnb — Tableau
 ![Airbnb Tableau Dashboard](Tableau_Projects/Airbnb-Analysis/Tableu_AirBnB_Dashboard.PNG)
@@ -73,7 +73,7 @@ Portfolio-Projects/
 ├── Excel_Bike_Buyers/
 │   ├── README.md
 │   ├── Advanced_Excel_Bike_Sales_Analysis.Xlsx
-│   └── dashboard.png
+│   └── EXCEL_DASHBOARD.PNG
 ├── Tableau_Projects/
 │   └── Airbnb-Analysis/
 │       ├── README.md
