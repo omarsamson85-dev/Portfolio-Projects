@@ -1,4 +1,4 @@
-# Samson Omar — Data Analytics Portfolio
+# Samson Omar Data Analytics Portfolio
 
 **Data Analyst | SQL Server | Power BI | Tableau | Excel | Python**
 
@@ -10,8 +10,8 @@ The projects cover SQL data cleaning and analysis, Excel reporting, Tableau visu
 
 | Project | Business focus | Stack |
 |---|---|---|
-| [Data Professional Survey — Power BI](PowerBI_Projects/PowerBI-Project/README.md) | Workforce composition, compensation, preferences and satisfaction | Power BI · Power Query · DAX · Excel |
-| [Airbnb Market Analysis — Tableau](Tableau_Projects/Airbnb-Analysis/README.md) | Pricing, property characteristics, geography and availability | Tableau · Kaggle |
+| [Data Professional Survey Power BI](PowerBI_Projects/PowerBI-Project/README.md) | Workforce composition, compensation, preferences and satisfaction | Power BI · Power Query · DAX · Excel |
+| [Airbnb Market Analysis Tableau](Tableau_Projects/Airbnb-Analysis/README.md) | Pricing, property characteristics, geography and availability | Tableau · Kaggle |
 | [COVID-19 Data Analysis](SQL_Projects/COVID-19/README.md) | Cases, deaths, infection rates and vaccination progress | SQL Server |
 | [National Housing Data Cleaning](SQL_Projects/Nashville_Housing/README.md) | Data quality, standardization, missing values and duplicates | SQL Server · Excel |
 | [Bike Buyers Analysis](Excel_Bike_Buyers/README.md) | Customer characteristics, purchasing behavior and dashboard reporting | Excel |
@@ -26,13 +26,13 @@ The projects cover SQL data cleaning and analysis, Excel reporting, Tableau visu
 
 ## Dashboard Previews
 
-### Bike Buyers — Excel
+### Bike Buyers Excel
 ![Bike Buyers Dashboard](Excel_Bike_Buyers/EXCEL_DASHBOARD.PNG)
 
-### Airbnb — Tableau
+### Airbnb Tableau
 ![Airbnb Tableau Dashboard](Tableau_Projects/Airbnb-Analysis/Tableu_AirBnB_Dashboard.PNG)
 
-### Data Professional Survey — Power BI
+### Data Professional Survey Power BI
 ![Data Professional Survey Dashboard](PowerBI_Projects/PowerBI-Project/POWER_BI_DASHBOARD.PNG)
 
 ## How to Review This Portfolio
@@ -122,7 +122,7 @@ The Power BI project uses the **Data Professional Survey** dataset associated wi
 
 ## About
 
-**Samson Omar** — Data analytics portfolio focused on practical SQL, Excel, Tableau, Power BI, Python, data preparation, exploratory analysis and dashboard development.
+**Samson Omar** Data analytics portfolio focused on practical SQL, Excel, Tableau, Power BI, Python, data preparation, exploratory analysis and dashboard development.
 
 - GitHub: [@omarsamson85-dev](https://github.com/omarsamson85-dev)
 
