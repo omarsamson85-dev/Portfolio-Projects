@@ -22,7 +22,7 @@ The workbook separates the analysis into four logical areas:
 
 ## 📊 Dashboard
 
-![Bike Buyers Dashboard](dashboard.png)
+![Bike Buyers Dashboard](EXCEL_DASHBOARD.PNG)
 
 The dashboard provides an at-a-glance view of the customer segments and purchasing patterns represented in the workbook.
 
