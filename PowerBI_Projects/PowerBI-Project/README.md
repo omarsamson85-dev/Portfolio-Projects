@@ -1,10 +1,10 @@
-# Data Professional Survey Analysis — Power BI
+# Data Professional Survey Analysis Power BI
 
-## 📌 Business Problem
+## Business Problem
 
 Data professionals work across different roles, locations, experience levels and compensation ranges. This project turns survey responses into an interactive Power BI report for exploring workforce composition, compensation, programming preferences and job satisfaction.
 
-## 🎯 Analytical Questions
+## Analytical Questions
 
 - Who participated in the survey and which professional roles are represented?
 - How does reported compensation vary across relevant groups?
@@ -12,7 +12,7 @@ Data professionals work across different roles, locations, experience levels and
 - How satisfied are respondents with their work?
 - How do responses differ by location and professional characteristics?
 
-## 🔧 End-to-End Workflow
+## End to End Workflow
 
 **Source data → Power Query transformation → data model → DAX measures → KPIs → interactive dashboard → insights**
 
@@ -24,7 +24,7 @@ Power Query is used to import, clean and transform the Excel source data before 
 
 The Power BI model structures the survey-response fields needed for consistent filtering and aggregation across professional, compensation, preference and satisfaction analyses.
 
-### DAX & Measures
+### DAX and Measures
 
 The report demonstrates reusable measures for:
 
@@ -37,23 +37,23 @@ The report demonstrates reusable measures for:
 
 Open the `.pbix` file in Power BI Desktop to inspect the exact expressions, relationships and model configuration.
 
-## 🖥️ Dashboard Preview
+## Dashboard Preview
 
 ![Data Professional Survey Dashboard](POWER_BI_DASHBOARD.PNG)
 
 The dashboard provides interactive filtering across job roles, compensation, programming preferences, satisfaction and relevant demographic/location dimensions.
 
-## 🔎 Key Insights
+## Key Insights
 
 The report is designed to answer the analytical questions above through interactive filters. Numerical findings are intentionally not hard-coded into this README because the report can be filtered interactively and the repository does not contain a separate validated findings table.
 
 For a recruiter or technical reviewer, the strongest evidence is the combination of the dashboard preview, `.pbix` model, Power Query transformations, DAX measures and source workbook.
 
-## 💡 Business Value
+## Business Value
 
 This project demonstrates a common business-intelligence workflow: converting raw survey responses into a structured reporting model that stakeholders can use to compare groups, identify workforce patterns and support discussion and decision-making.
 
-## 📋 Dataset & Attribution
+## Dataset and Attribution
 
 The project uses the **Data Professional Survey** dataset associated with **Alex The Analyst**.
 
@@ -63,7 +63,7 @@ The Excel workbook included in this repository is the source file used with the 
 
 > The portfolio does not claim ownership of the original survey responses or source dataset. Users redistributing the source data should verify the original source, permissions and applicable terms.
 
-## 📁 Project Files
+## Project Files
 
 - [Power BI report](Data_Professional_Survey_Analysis.pbix)
 - [Source survey dataset](Power%20BI%20-%20Final%20Project.xlsx)
@@ -71,7 +71,7 @@ The Excel workbook included in this repository is the source file used with the 
 
 > GitHub does not provide an interactive Power BI report experience. Download the `.pbix` file and open it in Power BI Desktop to explore the report, data model, Power Query transformations and DAX measures.
 
-## 🔄 Reproducibility
+## Reproducibility
 
 1. Download the Power BI `.pbix` file.
 2. Download the accompanying Excel source dataset.
@@ -80,12 +80,12 @@ The Excel workbook included in this repository is the source file used with the 
 5. Refresh the data if necessary.
 6. Explore the report pages, filters, data model and DAX measures.
 
-## ⚠️ Limitations
+## Limitations
 
 - Survey responses are self-reported and should not be interpreted as representative of the entire data-professional workforce without considering sampling limitations.
 - Reported compensation should be interpreted as survey data rather than verified payroll information.
 - Interactive dashboard values can change when filters are applied.
 
-## 🎯 Skills Demonstrated
+## Skills Demonstrated
 
 Power BI · Power Query / ETL · Data Cleaning · Data Modeling · DAX · KPI Development · Survey Analysis · Interactive Visualization · Business Intelligence Reporting · Visual Storytelling
