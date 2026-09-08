@@ -2,7 +2,7 @@
 
 This folder contains SQL projects demonstrating data cleaning, transformation, exploratory analysis and analytical querying using **Microsoft SQL Server**.
 
-## 1. COVID-19 Data Analysis
+## COVID-19 Data Analysis
 
 This project analyzes COVID-19 cases, deaths, population and vaccination data.
 
@@ -37,7 +37,7 @@ This project analyzes COVID-19 cases, deaths, population and vaccination data.
 
 ---
 
-## 2. National Housing Data Cleaning
+## National Housing Data Cleaning
 
 This project focuses on cleaning and preparing the **National Housing** dataset for analysis using SQL Server.
 
@@ -78,7 +78,7 @@ The original source workbook retained in the repository is named `Nashville Hous
 - [National Housing Dataset](Nashville_Housing/Nashville%20Housing%20Data%20for%20Data%20Cleaning.xlsx)
 - [National Housing Data Cleaning SQL](Nashville_Housing_Data_Cleaning.sql)
 
-### Source / Attribution Note
+### Source and Attribution Note
 
 The underlying housing dataset is a third-party source dataset. This repository does not claim ownership of the original dataset. The SQL cleaning script and analysis are the portfolio author's work. Users should consult the original dataset provider's terms before redistributing the source workbook.
 
