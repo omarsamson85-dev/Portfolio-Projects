@@ -1,14 +1,14 @@
-# Airbnb Data Analysis — Tableau
+# Airbnb Data Analysis Tableau
 
 An interactive analysis of Airbnb listing, review and calendar data focused on **pricing, property characteristics, geographic variation, availability and revenue trends**.
 
-## 📊 Dashboard Preview
+## Dashboard Preview
 
 ![Airbnb Tableau Dashboard](Tableu_AirBnB_Dashboard.PNG)
 
 The image is a static export of the completed Tableau dashboard for quick viewing on GitHub. The Tableau workbook is included for further inspection in Tableau Desktop.
 
-## 🎯 Business Questions
+## Business Questions
 
 1. How does Airbnb pricing vary by bedroom count and room type?
 2. Which ZIP codes have relatively higher or lower average listing prices?
@@ -16,7 +16,7 @@ The image is a static export of the completed Tableau dashboard for quick viewin
 4. How does availability and revenue change throughout the year?
 5. How do property characteristics relate to nightly price?
 
-## 🔎 Dashboard Views
+## Dashboard Views
 
 - **Average Price Per Bedroom** — compares average listing price across bedroom categories.
 - **Listing Distribution by Bedroom Count** — shows the number of listings in each bedroom category.
@@ -24,7 +24,7 @@ The image is a static export of the completed Tableau dashboard for quick viewin
 - **Price by ZIP Code** — ranks ZIP codes by average listing price.
 - **Revenue For Year** — tracks the revenue trend across the calendar year.
 
-## 💡 Key Observations
+## Key Observations
 
 The current Tableau dashboard shows several descriptive patterns:
 
@@ -35,7 +35,7 @@ The current Tableau dashboard shows several descriptive patterns:
 
 These are descriptive observations from the dashboard and should not be interpreted as causal findings. The revenue metric should also be interpreted in the context of the workbook's calculation methodology rather than as verified Airbnb company revenue.
 
-## 🗃️ Canonical Data Source
+## Canonical Data Source
 
 The project uses the public Kaggle dataset:
 
@@ -51,7 +51,7 @@ The working data model contains three related tables/sheets:
 - **Reviews** — guest review records
 - **Calendar** — listing availability, dates and prices
 
-## 🧰 Tools & Skills
+## Tools and Skills
 
 **Tools**
 - Tableau
@@ -67,7 +67,7 @@ The working data model contains three related tables/sheets:
 - Comparative analysis
 - Dashboard composition and visual storytelling
 
-## 📁 Project Files
+## Project Files
 
 | File | Purpose |
 |---|---|
@@ -76,7 +76,7 @@ The working data model contains three related tables/sheets:
 
 **[Download the Tableau workbook](AirBnB%20Full%20Project.twb)**
 
-## 🔄 Reproducibility
+## Reproducibility
 
 ### Tableau
 
@@ -84,11 +84,11 @@ The Tableau workbook contains a local Excel connection from the original develop
 
 The repository contains the Tableau workbook and dashboard preview image. The original Excel source workbook is not included in this project folder, so reproducing the exact Tableau workbook may require downloading the Kaggle source dataset and preparing the Excel source expected by the workbook.
 
-## 📌 Attribution
+## Attribution
 
 The underlying Airbnb data was obtained from the public Kaggle dataset linked above. This portfolio does not claim ownership of the underlying third-party data. The project documentation, analysis, Tableau workbook and dashboard design are the author's work; ownership and licensing of the underlying data remain subject to the original source and its applicable terms.
 
-## 👤 Author
+## Author
 
 **Samson Omar**
 
