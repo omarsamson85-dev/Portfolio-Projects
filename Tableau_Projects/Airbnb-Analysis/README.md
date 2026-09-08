@@ -1,4 +1,4 @@
-# Airbnb Data Analysis — Tableau + Streamlit
+# Airbnb Data Analysis — Tableau
 
 An interactive analysis of Airbnb listing, review and calendar data focused on **pricing, property characteristics, geographic variation, availability and revenue trends**.
 
@@ -7,8 +7,6 @@ An interactive analysis of Airbnb listing, review and calendar data focused on *
 ![Airbnb Tableau Dashboard](Tableu_AirBnB_Dashboard.PNG)
 
 The image is a static export of the completed Tableau dashboard for quick viewing on GitHub. The Tableau workbook is included for further inspection in Tableau Desktop.
-
-> **Live app note:** A Streamlit deployment is maintained separately from the repository. The source code is included in `app.py`, but the README does not present an unverified deployment URL as a guaranteed live service.
 
 ## 🎯 Business Questions
 
@@ -43,7 +41,7 @@ The project uses the public Kaggle dataset:
 
 **[Airbnb Listings 2016 Dataset — Kaggle](https://www.kaggle.com/datasets/alexanderfreberg/airbnb-listings-2016-dataset)**
 
-The repository's Tableau documentation, Streamlit application and Kaggle workflow now reference this same dataset to keep the project reproducible and internally consistent.
+The Tableau documentation and Kaggle source reference the same dataset to keep the project reproducible and internally consistent.
 
 The dataset contains Airbnb public-listing information from 2016. The portfolio does not claim ownership of the underlying third-party data or imply affiliation with Airbnb or Kaggle. Verify the current Kaggle license and attribution requirements before redistributing the data.
 
@@ -57,10 +55,6 @@ The working data model contains three related tables/sheets:
 
 **Tools**
 - Tableau
-- Python
-- Streamlit
-- pandas
-- Plotly
 - Kaggle
 
 **Skills**
@@ -72,7 +66,6 @@ The working data model contains three related tables/sheets:
 - Time-series analysis
 - Comparative analysis
 - Dashboard composition and visual storytelling
-- Interactive web dashboard development
 
 ## 📁 Project Files
 
@@ -91,19 +84,9 @@ The Tableau workbook contains a local Excel connection from the original develop
 
 The repository contains the Tableau workbook and dashboard preview image. The original Excel source workbook is not included in this project folder, so reproducing the exact Tableau workbook may require downloading the Kaggle source dataset and preparing the Excel source expected by the workbook.
 
-### Streamlit
-
-The Streamlit source uses the same public Kaggle dataset referenced above. Install the repository requirements and run:
-
-```bash
-streamlit run app.py
-```
-
-The application does not require a private Kaggle API token in the repository or Streamlit Secrets. `kagglehub` retrieves the public dataset at runtime.
-
 ## 📌 Attribution
 
-The underlying Airbnb data was obtained from the public Kaggle dataset linked above. This portfolio does not claim ownership of the underlying third-party data. The project documentation, analysis, Tableau workbook, dashboard design and Streamlit presentation are the author's work; ownership and licensing of the underlying data remain subject to the original source and its applicable terms.
+The underlying Airbnb data was obtained from the public Kaggle dataset linked above. This portfolio does not claim ownership of the underlying third-party data. The project documentation, analysis, Tableau workbook and dashboard design are the author's work; ownership and licensing of the underlying data remain subject to the original source and its applicable terms.
 
 ## 👤 Author
 
